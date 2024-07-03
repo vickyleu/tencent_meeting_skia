@@ -1,0 +1,11 @@
+{
+  "slider_mobile":{
+      "fill-color":"color-notice-2-3",
+      "disable-color":"color-notice-2-5",
+      "empty-color":"color-fill-5-2"
+  },
+  "slider":{
+    "fill-color":"color-fill-5-2",
+    "notice-color":"color-notice-2-3"
+  }
+}

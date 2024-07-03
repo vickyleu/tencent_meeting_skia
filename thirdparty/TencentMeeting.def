@@ -1,0 +1,2 @@
+language = Objective-C
+headers = TencentMeetingSDK.h TencentMeetingSDKDefine.h TMAccountService.h TMInMeetingService.h TMPreMeetingService.h

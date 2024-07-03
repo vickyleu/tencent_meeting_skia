@@ -1,0 +1,8 @@
+{
+    "version": "20230413_enlighten",
+    "model_file": "enlighten.json.en2",
+    "weight_file": "enlighten.bin",
+    "output_name": "Linear_0_0",
+    "clip_min": 0.3,
+    "clip_max": 1.0
+}

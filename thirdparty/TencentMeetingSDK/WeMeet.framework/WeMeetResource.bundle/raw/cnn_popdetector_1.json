@@ -1,0 +1,46 @@
+{
+    "layer_cnt": 2,
+    "blob_cnt": 2,
+    "layer_info": [
+        {
+            "layer_type": "Input",
+            "layer_name": "Input_0",
+            "input_blob_cnt": 0,
+            "output_blob_cnt": 1,
+            "input_blobs": [],
+            "output_blobs": [
+                "Input_0_0"
+            ],
+            "layer_param": {},
+            "weight_info": []
+        },
+        {
+            "layer_type": "ConvolutionReLU",
+            "layer_name": "ConvolutionReLU_0",
+            "input_blob_cnt": 1,
+            "output_blob_cnt": 1,
+            "input_blobs": [
+                "Input_0_0"
+            ],
+            "output_blobs": [
+                "ReLU_0_0"
+            ],
+            "layer_param": {
+                "output_channel": 8,
+                "kernel": 3,
+                "stride_h": 1,
+                "stride_w": 2,
+                "pad": 1,
+                "has_bias": 1,
+                "group": 1,
+                "weight_data_size": 216,
+                "slope": 0.0
+            },
+            "weight_info": [
+                1,
+                216,
+                225
+            ]
+        }
+    ]
+}

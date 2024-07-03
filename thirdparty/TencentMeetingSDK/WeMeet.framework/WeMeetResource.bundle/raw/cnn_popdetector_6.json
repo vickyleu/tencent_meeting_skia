@@ -1,0 +1,253 @@
+{
+    "layer_cnt": 12,
+    "blob_cnt": 12,
+    "layer_info": [
+        {
+            "layer_type": "Input",
+            "layer_name": "Input_0",
+            "input_blob_cnt": 0,
+            "output_blob_cnt": 1,
+            "input_blobs": [],
+            "output_blobs": [
+                "Input_0_0"
+            ],
+            "layer_param": {},
+            "weight_info": []
+        },
+        {
+            "layer_type": "ConvolutionReLU",
+            "layer_name": "ConvolutionReLU_0",
+            "input_blob_cnt": 1,
+            "output_blob_cnt": 1,
+            "input_blobs": [
+                "Input_0_0"
+            ],
+            "output_blobs": [
+                "ReLU_0_0"
+            ],
+            "layer_param": {
+                "output_channel": 16,
+                "kernel": 3,
+                "stride": 2,
+                "pad": 1,
+                "has_bias": 1,
+                "group": 16,
+                "weight_data_size": 144,
+                "slope": 0.0
+            },
+            "weight_info": [
+                1,
+                144,
+                161
+            ]
+        },
+        {
+            "layer_type": "ConvolutionReLU",
+            "layer_name": "ConvolutionReLU_1",
+            "input_blob_cnt": 1,
+            "output_blob_cnt": 1,
+            "input_blobs": [
+                "ReLU_0_0"
+            ],
+            "output_blobs": [
+                "ReLU_1_0"
+            ],
+            "layer_param": {
+                "output_channel": 16,
+                "kernel": 1,
+                "stride": 1,
+                "pad": 0,
+                "has_bias": 1,
+                "group": 1,
+                "weight_data_size": 256,
+                "slope": 0.0
+            },
+            "weight_info": [
+                162,
+                256,
+                434
+            ]
+        },
+        {
+            "layer_type": "ConvolutionReLU",
+            "layer_name": "ConvolutionReLU_2",
+            "input_blob_cnt": 1,
+            "output_blob_cnt": 1,
+            "input_blobs": [
+                "ReLU_1_0"
+            ],
+            "output_blobs": [
+                "ReLU_2_0"
+            ],
+            "layer_param": {
+                "output_channel": 16,
+                "kernel": 3,
+                "stride": 1,
+                "pad": 1,
+                "has_bias": 1,
+                "group": 16,
+                "weight_data_size": 144,
+                "slope": 0.0
+            },
+            "weight_info": [
+                435,
+                144,
+                595
+            ]
+        },
+        {
+            "layer_type": "ConvolutionReLU",
+            "layer_name": "ConvolutionReLU_3",
+            "input_blob_cnt": 1,
+            "output_blob_cnt": 1,
+            "input_blobs": [
+                "ReLU_2_0"
+            ],
+            "output_blobs": [
+                "ReLU_3_0"
+            ],
+            "layer_param": {
+                "output_channel": 16,
+                "kernel": 1,
+                "stride": 1,
+                "pad": 0,
+                "has_bias": 1,
+                "group": 1,
+                "weight_data_size": 256,
+                "slope": 0.0
+            },
+            "weight_info": [
+                596,
+                256,
+                868
+            ]
+        },
+        {
+            "layer_type": "ReduceMean",
+            "layer_name": "ReduceMean_0",
+            "input_blob_cnt": 1,
+            "output_blob_cnt": 1,
+            "input_blobs": [
+                "ReLU_3_0"
+            ],
+            "output_blobs": [
+                "ReduceMean_0_0"
+            ],
+            "layer_param": {
+                "axes": [
+                    3
+                ]
+            },
+            "weight_info": []
+        },
+        {
+            "layer_type": "Reshape",
+            "layer_name": "Reshape_0",
+            "input_blob_cnt": 1,
+            "output_blob_cnt": 1,
+            "input_blobs": [
+                "ReduceMean_0_0"
+            ],
+            "output_blobs": [
+                "Reshape_0_0"
+            ],
+            "layer_param": {
+                "n": 1,
+                "c": 16,
+                "h": 16,
+                "w": 1
+            },
+            "weight_info": []
+        },
+        {
+            "layer_type": "Reshape",
+            "layer_name": "Reshape_1",
+            "input_blob_cnt": 1,
+            "output_blob_cnt": 1,
+            "input_blobs": [
+                "Reshape_0_0"
+            ],
+            "output_blobs": [
+                "Reshape_1_0"
+            ],
+            "layer_param": {
+                "n": 1,
+                "c": -1,
+                "h": 1,
+                "w": 1
+            },
+            "weight_info": []
+        },
+        {
+            "layer_type": "Permute",
+            "layer_name": "Permute_0",
+            "input_blob_cnt": 1,
+            "output_blob_cnt": 1,
+            "input_blobs": [
+                "Reshape_1_0"
+            ],
+            "output_blobs": [
+                "Permute_0_0"
+            ],
+            "layer_param": {
+                "c_dim": 2,
+                "h_dim": 1,
+                "w_dim": 0
+            },
+            "weight_info": []
+        },
+        {
+            "layer_type": "Linear",
+            "layer_name": "Linear_0",
+            "input_blob_cnt": 1,
+            "output_blob_cnt": 1,
+            "input_blobs": [
+                "Permute_0_0"
+            ],
+            "output_blobs": [
+                "Linear_0_0"
+            ],
+            "layer_param": {
+                "num_input": 256,
+                "num_output": 2
+            },
+            "weight_info": [
+                868,
+                512,
+                1382
+            ]
+        },
+        {
+            "layer_type": "Permute",
+            "layer_name": "Permute_1",
+            "input_blob_cnt": 1,
+            "output_blob_cnt": 1,
+            "input_blobs": [
+                "Linear_0_0"
+            ],
+            "output_blobs": [
+                "Permute_1_0"
+            ],
+            "layer_param": {
+                "c_dim": 2,
+                "h_dim": 1,
+                "w_dim": 0
+            },
+            "weight_info": []
+        },
+        {
+            "layer_type": "Softmax",
+            "layer_name": "Softmax_0",
+            "input_blob_cnt": 1,
+            "output_blob_cnt": 1,
+            "input_blobs": [
+                "Permute_1_0"
+            ],
+            "output_blobs": [
+                "Softmax_0_0"
+            ],
+            "layer_param": {},
+            "weight_info": []
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "info_button":{
+        "icon-info-hover":"icon-info-hover",
+        "icon-info-press":"icon-info-press",
+        "icon-info-normal":"icon-info-normal"
+    },
+    "info_button#mobile":{
+        "icon-info-press":"icon-info-press-mobile",
+        "icon-info-normal":"icon-info-normal-mobile"
+    },
+    "info_button_pc":{
+        "bg-image-normal":"icon-info-normal-s",
+        "bg-image-hover":"icon-info-hover-s",
+        "bg-image-press":"icon-info-hover-s",
+        "text-color":"color-link-1-1",
+        "font-weight":"font-weight-1",
+        "font-linehight":"font-linehight-2",
+        "font-size":"font-size-1-2"
+    }
+}

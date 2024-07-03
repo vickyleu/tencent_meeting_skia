@@ -1,0 +1,12 @@
+{
+    "tooltips":{
+        "bg-color":"color-fill-2-1",
+        "border-color":"color-border-1-1",
+        "text-color":"color-text-1",
+        "font-size":"font-size-2-2",
+        "font-weight":"font-weight-1",
+        "font-linehight":"font-linehight-2",
+        "radius":"radius-1",
+        "shadow":"shadow-1"
+    }
+}

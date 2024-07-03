@@ -1,0 +1,22 @@
+{
+    "box_common#pulldownbutton":{
+        "drop-bg-image-normal":"combo-box-2-3",
+        "drop-bg-image-hover":"color-border-2-3",
+        "drop-bg-image-press":"combo-box-2-4",
+        "drop-bg-image-disable":"combo-box-2-1",
+        "border-color-normal":"color-border-2-4",
+        "border-color-hover":"color-border-1-1",
+        "border-color-selected":"color-border-1-2",
+        "border-color-disable":"color-border-1-4",
+        "radius":"radius-1"
+    },
+    "box_common_pulldownbutton":{
+        "drop-bg-image-normal":"pulldown-1-2",
+        "drop-bg-image-hover":"pulldown-1-1",
+        "drop-bg-image-press":"pulldown-1-1",
+        "button-image-normal":"pulldown-2-1",
+        "button-image-hover":"pulldown-2-2",
+        "button-image-selected":"pulldown-2-4",
+        "button-image-disable":"pulldown-2-3"
+    }
+}

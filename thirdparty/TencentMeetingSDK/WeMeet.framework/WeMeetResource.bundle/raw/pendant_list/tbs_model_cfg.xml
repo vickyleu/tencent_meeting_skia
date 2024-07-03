@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stream>
+  <iq type="result">
+    <tbs_model>
+      <tbs_model_list>
+         <model platform="Windows" min_version="3.21.200.0" max_version="3.21.200.999" resource_url="https://updatecdn.meeting.qq.com/resource-update/59fa0efa6e478cbf73ebd3a146a04092/59fa0efa6e478cbf73ebd3a146a04092.zip" resource_md5="59fa0efa6e478cbf73ebd3a146a04092"/>
+      </tbs_model_list>
+    </tbs_model>
+  </iq>
+</stream>

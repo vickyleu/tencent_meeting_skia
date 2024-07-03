@@ -1,0 +1,14 @@
+{
+    "box_common#combobox":{
+        "bg-image-normal":"combo-box-1-3",
+        "bg-image-hover":"color-border-1-3",
+        "bg-image-selected":"combo-box-1-4",
+        "bg-image-disable":"combo-box-1-1",
+        "bg-image-error":"combo-box-1-2",
+        "drop-bg-image-normal":"combo-box-2-3",
+        "drop-bg-image-hover":"color-border-2-3",
+        "drop-bg-image-press":"combo-box-2-4",
+        "drop-bg-image-disable":"combo-box-2-1",
+        "drop-icon":"combo-box-3"
+    }
+}

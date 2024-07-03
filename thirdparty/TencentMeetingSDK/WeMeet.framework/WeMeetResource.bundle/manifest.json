@@ -1,0 +1,459 @@
+{
+  "name": "app",
+  "path": "app_module",
+  "version": "1.0.0.0",
+  "dependencies": {},
+  "schemes": [
+    {
+      "name": "wemeet://browser"
+    },
+    {
+      "name": "wemeet://filepath"
+    },
+    {
+      "name": "wemeet://navigation"
+    },
+    {
+      "name": "wemeet://page/"
+    },
+    {
+      "name": ""
+    },
+    {
+      "name": "wemeet://page/main"
+    },
+    {
+      "name": "wemeet://page/home"
+    },
+    {
+      "name": "wemeet://page/guide"
+    },
+    {
+      "name": "wemeet://auth/sso"
+    },
+    {
+      "name": "wemeet://page/loading"
+    },
+    {
+      "name": "wemeet://page/inmeeting"
+    },
+    {
+      "name": "wemeet2://page/invite/wechat"
+    },
+    {
+      "name": "wemeet2://page/share/coupon"
+    },
+    {
+      "name": "wemeet://page/premeeting/join_from_notification"
+    },
+    {
+      "name": "wemeet://page/premeeting/push_dialog",
+      "exported": true
+    },
+    {
+      "name": "wemeet://page/premeeting/identity_verification"
+    },
+    {
+      "name": "wemeet://page/inmeeting/handsup"
+    },
+    {
+      "name": "wemeet://page/inmeeting/members_menu"
+    },
+    {
+      "name": "wemeet://page/premeeting/more_menu"
+    },
+    {
+      "name": "wemeet://page/inmeeting/leave_menu"
+    },
+    {
+      "name": "wemeet://page/premeeting/schedule/add_invitee"
+    },
+    {
+      "name": "wemeet://page/premeeting/schedule/remove_invitee"
+    },
+    {
+      "name": "wemeet://page/premeeting/schedule_add_wework_invitee"
+    },
+    {
+      "name": "wemeet://page/capacity_card_list"
+    },
+    {
+      "name": "wemeet://page/apply_permission_list"
+    },
+    {
+      "name": "wemeet://page/profile/upgrade_vip"
+    },
+    {
+      "name": "wemeet://page/record_storage"
+    },
+    {
+      "name": "wemeet://page/pay/webview"
+    },
+    {
+      "name": "wemeet://page/professional/webview"
+    },
+    {
+      "name": "wemeet://page/inmeeting/authoritypermission"
+    },
+    {
+      "name": "wemeet://page/facebeauty"
+    },
+    {
+      "name": "wemeet://page/inmeeting/setting/ai"
+    },
+    {
+      "name": "wemeet://page/webview"
+    },
+    {
+      "name": "wemeet://page/home_mask_webview"
+    },
+    {
+      "name": "wemeet://page/webcore/browser"
+    },
+    {
+      "name": "wemeet://page/webview/back_aware"
+    },
+    {
+      "name": "wemeet://page/avatar/preview"
+    },
+    {
+      "name": "wemeet://page/premeeting/edit_invite_wework_user"
+    },
+    {
+      "name": "wemeet://page/premeeting/show_invite_wework_user"
+    },
+    {
+      "name": "wemeet://page/premeeting/show_pstn_number"
+    },
+    {
+      "name": "wemeet://page/profile/message_center"
+    },
+    {
+      "name": "wemeet://page/profile/practice_center"
+    },
+    {
+      "name": "wemeet://page/profile/message_detail"
+    },
+    {
+      "name": "wemeet://page/stardand_webview"
+    },
+    {
+      "name": "wemeet://page/my_card_list_webview"
+    },
+    {
+      "name": "wemeet://page/premeeting/desktop_tips"
+    },
+    {
+      "name": "wemeet://page/live_record_list"
+    },
+    {
+      "name": "wemeet://page/live_record_play"
+    },
+    {
+      "name": "wemeet://page/chat_group_notice"
+    },
+    {
+      "name": "wemeet://page/activity_guide"
+    },
+    {
+      "name": "wemeet://page/native_activity_guide"
+    },
+    {
+      "name": "wemeet://page/after_meeting_award"
+    },
+    {
+      "name": "wemeet://page/after_meeting_picture"
+    },
+    {
+      "name": "wemeet://page/after_meeting_three_item"
+    },
+    {
+      "name": "wemeet://page/feedback_meeting_experience"
+    },
+    {
+      "name": "wemeet://page/after_meeting_summary"
+    },
+    {
+      "name": "wemeet://page/external_link"
+    },
+    {
+      "name": "wemeet://page/external_auth_v2"
+    },
+    {
+      "name": "wemeet://page/external_auth"
+    },
+    {
+      "name": "wemeet://page/test_flight"
+    },
+    {
+      "name": "wemeet://page/application"
+    },
+    {
+      "name": "wemeet://page/scheme"
+    },
+    {
+      "name": "wemeet://page/upgrade"
+    },
+    {
+      "name": "wemeet://page/qt_tray_menu"
+    },
+    {
+      "name": "wemeet://page/nxui/system_tray_menu"
+    },
+    {
+      "name": "wemeet://page/inmeeting/waitingroom"
+    },
+    {
+      "name": "wemeet://page/startup"
+    },
+    {
+      "name": "wemeet://page/profile/setting"
+    },
+    {
+      "name": "wemeet://page/handsup_list"
+    },
+    {
+      "name": "wemeet://page/premeeting/schedule_search_invite_user"
+    },
+    {
+      "name": "wemeet://page/meeting_subject_detail"
+    },
+    {
+      "name": "wemeet://page/inmeeting/device"
+    },
+    {
+      "name": "wemeet://page/inmeeting/device_manage"
+    },
+    {
+      "name": "wemeet://page/upgrade_app"
+    },
+    {
+      "name": "wemeet://page/upgrade_app_desktop"
+    },
+    {
+      "name": "wemeet://page/upgrade_arch_conflict"
+    },
+    {
+      "name": "wemeet://page/package_download"
+    },
+    {
+      "name": "wemeet://page/pstn_contact"
+    },
+    {
+      "name": "wemeet://page/app_loading"
+    },
+    {
+      "name": "wemeet://page/history/meeting_report"
+    },
+    {
+      "name": "wemeet://page/premeeting/loading"
+    },
+    {
+      "name": "wemeet://launch"
+    },
+    {
+      "name": "wemeet://page/abouts"
+    },
+    {
+      "name": "wemeet://page/premeeting/timezone"
+    },
+    {
+      "name": "wemeet://page/debugsettings"
+    },
+    {
+      "name": "wemeet://page/logshare"
+    },
+    {
+      "name": "wemeet://page/database_operation"
+    },
+    {
+      "name": "wemeet://page/statecode"
+    },
+    {
+      "name": "wemeet://page/searchperson"
+    },
+    {
+      "name": "wemeet://page/home/networkbreakuptips"
+    },
+    {
+      "name": "wemeet://page/nostateful/webview"
+    },
+    {
+      "name": "wemeet://page/report_violation"
+    },
+    {
+      "name": "wemeet://action/third_auth"
+    },
+    {
+      "name": "wemeet://page/inmeeting/share_qrcode"
+    },
+    {
+      "name": "wemeet://page/sso_login_web"
+    },
+    {
+      "name": "wemeet://page/select"
+    },
+    {
+      "name": "wemeet://page/popup_select"
+    },
+    {
+      "name": "wemeet://page/inmeeting/voice_activated/unfold"
+    },
+    {
+      "name": "wemeet://page/inmeeting/voice_activated/main"
+    },
+    {
+      "name": "wemeet://mini_program_face_recognition"
+    },
+    {
+      "name": "wemeet://page/private_main"
+    },
+    {
+      "name": "wemeet://page/preview_image"
+    },
+    {
+      "name": "wemeet://page/calling"
+    },
+    {
+      "name": "wemeet://page/post_meeting_summary"
+    },
+    {
+      "name": "wemeet://page/nxui/host"
+    },
+    {
+      "name": "wemeet://page/nxui/webview"
+    },
+    {
+      "name": "wemeet://page/qt_common/qt_wrapper"
+    },
+    {
+      "name": "wemeet://page/nxui/upgrade_notify_already_new"
+    },
+    {
+      "name": "wemeet://page/nxui/toast"
+    },
+    {
+      "name": "wemeet://page/nxui/alert"
+    },
+    {
+      "name": "wemeet://page/nxui/popover"
+    },
+    {
+      "name": "wemeet://page/nxui/tips"
+    },
+    {
+      "name": "wemeet://page/nxui/window"
+    },
+    {
+      "name": "wemeet://page/nxui/bottom_sheet"
+    },
+    {
+      "name": "wemeet://page/together_mode_setting"
+    },
+    {
+      "name": "wemeet://page/home/operate_alert"
+    },
+    {
+      "name": "wemeet://page/check_update"
+    },
+    {
+      "name": "wemeet://page/quick_operation_menu"
+    },
+    {
+      "name": "wemeet://page/inmeeting/resource_hint"
+    },
+    {
+      "name": "wemeet://page/alert/leave_meeting_sleep"
+    },
+    {
+      "name": "wemeet://page/inmeeting/voice_activated/qt_main"
+    },
+    {
+      "name": "wemeet://page/taskbar_menu"
+    },
+    {
+      "name": "wemeet://page/multi_pay_guide"
+    },
+    {
+      "name": "wemeet://page/nx_desktop_tips"
+    },
+    {
+      "name": "wemeet://start_meeting"
+    },
+    {
+      "name": "wemeet://page/message_center_independent"
+    }
+  ],
+  "contributes": {
+    "contributes:app.home_page_tab_container": [
+      {
+        "extension": "app:extension:home_meeting"
+      }
+    ],
+    "contributes:app.home_header_right_container": [
+      {
+        "extension": "app:extension:home_header_avatar"
+      },
+      {
+        "extension": "app:extension:home_header_message_center"
+      }
+    ],
+    "contributes:app.home_navigation_bar_top_container": [
+      {
+        "extension": "app:extension:home_navigation_bar_top_avatar"
+      }
+    ],
+    "contributes:app.home_navigation_bar_bottom_container": [
+      {
+        "extension": "app:extension:home_navigation_bar_bottom_message_center"
+      }
+    ],
+    "contributes:app.web_activity": [
+      {
+        "extension": "extension:app.web_activity",
+        "platform": [
+          "OS_ANDROID"
+        ]
+      }
+    ],
+    "contributes:inmeeting.quick_operation_menu": [
+      {
+        "extension": "extension:app.spot_light_video_in_quick_operation_menu",
+        "platform": [
+          "OS_DESKTOP"
+        ]
+      },
+      {
+        "extension": "extension:app.separator_one_in_quick_operation_menu",
+        "platform": [
+          "OS_DESKTOP"
+        ]
+      },
+      {
+        "extension": "extension:app.separator_two_in_quick_operation_menu",
+        "platform": [
+          "OS_DESKTOP"
+        ]
+      },
+      {
+        "extension": "extension:app.separator_three_in_quick_operation_menu",
+        "platform": [
+          "OS_DESKTOP"
+        ]
+      },
+      {
+        "extension": "extension:app.separator_four_in_quick_operation_menu",
+        "platform": [
+          "OS_DESKTOP"
+        ]
+      },
+      {
+        "extension": "extension:app.rename_in_quick_operation_menu",
+        "platform": [
+          "OS_DESKTOP"
+        ]
+      }
+    ]
+  },
+  "description": "app"
+}

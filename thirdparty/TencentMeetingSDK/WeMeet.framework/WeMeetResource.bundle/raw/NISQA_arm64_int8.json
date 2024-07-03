@@ -1,0 +1,338 @@
+{
+  "blob_cnt": 17,
+  "layer_cnt": 17,
+  "layer_info": [
+    {
+      "input_blob_cnt": 0,
+      "input_blobs": [],
+      "layer_name": "Input0",
+      "layer_param": {},
+      "layer_type": "Input",
+      "output_blob_cnt": 1,
+      "output_blobs": [
+        "Input0_0"
+      ]
+    },
+    {
+      "input_blob_cnt": 1,
+      "input_blobs": [
+        "Input0_0"
+      ],
+      "layer_name": "ConvolutionReLU1",
+      "layer_param": {
+        "group": 1,
+        "has_bias": 1,
+        "kernel": 3,
+        "output_channel": 16,
+        "pad": 1,
+        "slope": 0.0,
+        "stride": 1,
+        "weight_data_size": 144
+      },
+      "layer_type": "Convolution",
+      "output_blob_cnt": 1,
+      "output_blobs": [
+        "ConvolutionReLU1_1"
+      ]
+    },
+    {
+      "input_blob_cnt": 1,
+      "input_blobs": [
+        "ConvolutionReLU1_1"
+      ],
+      "layer_name": "Pooling2",
+      "layer_param": {
+        "global_pooling": 0,
+        "kernel_size": 2,
+        "pad_h_begin": 0,
+        "pad_h_end": 0,
+        "pad_w_begin": 1,
+        "pad_w_end": 1,
+        "pooling_type": 0,
+        "stride": 2
+      },
+      "layer_type": "Pooling",
+      "output_blob_cnt": 1,
+      "output_blobs": [
+        "Pooling2_2"
+      ]
+    },
+    {
+      "input_blob_cnt": 1,
+      "input_blobs": [
+        "Pooling2_2"
+      ],
+      "layer_name": "ConvolutionReLU3",
+      "layer_param": {
+        "group": 1,
+        "has_bias": 1,
+        "kernel": 3,
+        "output_channel": 32,
+        "pad": 1,
+        "slope": 0.0,
+        "stride": 1,
+        "weight_data_size": 4608
+      },
+      "layer_type": "Convolution",
+      "output_blob_cnt": 1,
+      "output_blobs": [
+        "ConvolutionReLU3_3"
+      ]
+    },
+    {
+      "input_blob_cnt": 1,
+      "input_blobs": [
+        "ConvolutionReLU3_3"
+      ],
+      "layer_name": "Pooling4",
+      "layer_param": {
+        "global_pooling": 0,
+        "kernel_size": 2,
+        "pad": 0,
+        "pooling_type": 0,
+        "stride": 2
+      },
+      "layer_type": "Pooling",
+      "output_blob_cnt": 1,
+      "output_blobs": [
+        "Pooling4_4"
+      ]
+    },
+    {
+      "input_blob_cnt": 1,
+      "input_blobs": [
+        "Pooling4_4"
+      ],
+      "layer_name": "ConvolutionReLU5",
+      "layer_param": {
+        "group": 1,
+        "has_bias": 1,
+        "kernel": 3,
+        "output_channel": 64,
+        "pad": 1,
+        "slope": 0.0,
+        "stride": 1,
+        "weight_data_size": 18432
+      },
+      "layer_type": "Convolution",
+      "output_blob_cnt": 1,
+      "output_blobs": [
+        "ConvolutionReLU5_5"
+      ]
+    },
+    {
+      "input_blob_cnt": 1,
+      "input_blobs": [
+        "ConvolutionReLU5_5"
+      ],
+      "layer_name": "ConvolutionReLU6",
+      "layer_param": {
+        "group": 1,
+        "has_bias": 1,
+        "kernel": 3,
+        "output_channel": 64,
+        "pad": 1,
+        "slope": 0.0,
+        "stride": 1,
+        "weight_data_size": 36864
+      },
+      "layer_type": "Convolution",
+      "output_blob_cnt": 1,
+      "output_blobs": [
+        "ConvolutionReLU6_6"
+      ]
+    },
+    {
+      "input_blob_cnt": 1,
+      "input_blobs": [
+        "ConvolutionReLU6_6"
+      ],
+      "layer_name": "Pooling7",
+      "layer_param": {
+        "global_pooling": 0,
+        "kernel_size": 2,
+        "pad": 0,
+        "pooling_type": 0,
+        "stride": 2
+      },
+      "layer_type": "Pooling",
+      "output_blob_cnt": 1,
+      "output_blobs": [
+        "Pooling7_7"
+      ]
+    },
+    {
+      "input_blob_cnt": 1,
+      "input_blobs": [
+        "Pooling7_7"
+      ],
+      "layer_name": "ConvolutionReLU8",
+      "layer_param": {
+        "group": 1,
+        "has_bias": 1,
+        "kernel": 3,
+        "output_channel": 64,
+        "pad": 1,
+        "slope": 0.0,
+        "stride": 1,
+        "weight_data_size": 36864
+      },
+      "layer_type": "Convolution",
+      "output_blob_cnt": 1,
+      "output_blobs": [
+        "ConvolutionReLU8_8"
+      ]
+    },
+    {
+      "input_blob_cnt": 1,
+      "input_blobs": [
+        "ConvolutionReLU8_8"
+      ],
+      "layer_name": "ConvolutionReLU9",
+      "layer_param": {
+        "group": 1,
+        "has_bias": 1,
+        "kernel": 3,
+        "output_channel": 64,
+        "pad": 1,
+        "slope": 0.0,
+        "stride": 1,
+        "weight_data_size": 36864
+      },
+      "layer_type": "Convolution",
+      "output_blob_cnt": 1,
+      "output_blobs": [
+        "ConvolutionReLU9_9"
+      ]
+    },
+    {
+      "input_blob_cnt": 1,
+      "input_blobs": [
+        "ConvolutionReLU9_9"
+      ],
+      "layer_name": "Permute10",
+      "layer_param": {
+        "c_dim": 2,
+        "h_dim": 0,
+        "order": [
+          0,
+          3,
+          1,
+          2
+        ],
+        "w_dim": 1
+      },
+      "layer_type": "Permute",
+      "output_blob_cnt": 1,
+      "output_blobs": [
+        "Permute10_10"
+      ]
+    },
+    {
+      "input_blob_cnt": 1,
+      "input_blobs": [
+        "Permute10_10"
+      ],
+      "layer_name": "Reshape11",
+      "layer_param": {
+        "c": 768,
+        "h": 1,
+        "n": -1,
+        "w": 1
+      },
+      "layer_type": "Reshape",
+      "output_blob_cnt": 1,
+      "output_blobs": [
+        "Reshape11_11"
+      ]
+    },
+    {
+      "input_blob_cnt": 1,
+      "input_blobs": [
+        "Reshape11_11"
+      ],
+      "layer_name": "Linear12",
+      "layer_param": {
+        "num_input": 768,
+        "num_output": 20
+      },
+      "layer_type": "Linear",
+      "output_blob_cnt": 1,
+      "output_blobs": [
+        "Linear12_12"
+      ]
+    },
+    {
+      "input_blob_cnt": 1,
+      "input_blobs": [
+        "Linear12_12"
+      ],
+      "layer_name": "Reshape13",
+      "layer_param": {
+        "c": 1,
+        "h": 1,
+        "n": -1,
+        "w": 20
+      },
+      "layer_type": "Reshape",
+      "output_blob_cnt": 1,
+      "output_blobs": [
+        "Reshape13_13"
+      ]
+    },
+    {
+      "input_blob_cnt": 1,
+      "input_blobs": [
+        "Reshape13_13"
+      ],
+      "layer_name": "QATInt8DequantReLayoutNHWC2NCHW14",
+      "layer_param": {},
+      "layer_type": "QATInt8DequantReLayoutNHWC2NCHW",
+      "output_blob_cnt": 1,
+      "output_blobs": [
+        "QATInt8DequantReLayoutNHWC2NCHW14_14"
+      ]
+    },
+    {
+      "input_blob_cnt": 1,
+      "input_blobs": [
+        "QATInt8DequantReLayoutNHWC2NCHW14_14"
+      ],
+      "layer_name": "LSTM15",
+      "layer_param": {
+        "direction": 1,
+        "num_input": 20,
+        "num_output": 128
+      },
+      "layer_type": "LSTM",
+      "mix_quant_param": {
+        "force_curr_layer_use_precision": "fp32",
+        "force_next_layer_use_precision": "fp32"
+      },
+      "output_blob_cnt": 1,
+      "output_blobs": [
+        "LSTM15_15"
+      ]
+    },
+    {
+      "input_blob_cnt": 1,
+      "input_blobs": [
+        "LSTM15_15"
+      ],
+      "layer_name": "Linear16",
+      "layer_param": {
+        "num_input": 128,
+        "num_output": 1
+      },
+      "layer_type": "Linear",
+      "mix_quant_param": {
+        "force_curr_layer_use_precision": "fp32",
+        "force_next_layer_use_precision": "fp32"
+      },
+      "output_blob_cnt": 1,
+      "output_blobs": [
+        "Linear16_16"
+      ]
+    }
+  ]
+}

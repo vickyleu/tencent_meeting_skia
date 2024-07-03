@@ -1,0 +1,23 @@
+{
+    "context_menu": {
+        "bg-color":"color-fill-2-1",
+        "border-color":"color-border-1-1",
+        "radius":"radius-1"
+    },
+    "context_menu_item":{
+        "bg-color-normal":"color-fill-2-1",
+        "bg-color-hover":"color-notice-2-3",
+        "text-color-normal":"color-text-1",
+        "text-color-hover":"color-text-4",
+        "text-color-selected":"color-text-4",
+        "text-color-disable":"color-text-3",
+        "title-color":"color-text-2",
+        "font-weight":"font-weight-1",
+        "font-linehight":"font-linehight-2",
+        "font-size":"font-size-2-2",
+        "separate-line-color":"color-border-2-1",
+        "selected-icon":"image-menu-selected",
+        "sub-menu-normal-icon":"image-sub-menu-normal",
+        "sub-menu-hover-icon":"image-sub-menu-hover"
+    }
+}

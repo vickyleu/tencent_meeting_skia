@@ -1,0 +1,12 @@
+{
+    "version":"1.0",
+    "desc":"默认主题",
+    "imagebutton-id":{
+        "mobile":{
+            "toolbar":["audio-off", "audio-on", "camera-off", "camera-on", "chat", "docs", "facialup", "invite", "member-lock", "mic-off", "mic-on", "more-fold", "more-spread", "postil", "rec-off", "rec-on", "redpocket", "screenshare", "screenshare-off", "screenshare-on", "settings", "translator-active", "virtualbg", "vote", "translator"]
+        },
+        "desktop":{
+            "live":["refresh", "add", "copy"]
+        }
+    }
+}

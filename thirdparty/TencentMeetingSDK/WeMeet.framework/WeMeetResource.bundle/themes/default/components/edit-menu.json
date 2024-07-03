@@ -1,0 +1,16 @@
+{
+    "edit_menu": {
+        "bg-color":"color-fill-1-1",
+        "item-bg-color":"color-fill-1-5",
+        "item-bg-opacity":"color-opacity-2",
+        "text-color":"color-text-4",
+        "border-color":"color-border-2-1",
+        "radius":"radius-4",
+        "font-size-1":"font-size-1-2",
+        "font-size-2":"font-size-1-1"
+    },
+    "edit_menu#android": {
+        "bg-image":"edit-menu-1-1",
+        "arrow-image":"edit-menu-1-2"
+    }
+}

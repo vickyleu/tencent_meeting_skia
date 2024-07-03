@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stream>
+    <iq type="result">
+        <human_segment>
+            <human_segment_model_list>
+            </human_segment_model_list>
+        </human_segment>
+    </iq>
+</stream>

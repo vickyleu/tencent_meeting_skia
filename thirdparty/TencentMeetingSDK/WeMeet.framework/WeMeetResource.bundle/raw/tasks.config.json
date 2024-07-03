@@ -1,0 +1,27 @@
+[
+  {
+    "current_task_name": "",
+    "current_state": 0
+  },
+  {
+    "task_name": "hello",
+    "params": "",
+    "task_type": 1,
+    "scene_id": 1,
+    "run_times": 10
+  },
+  {
+    "task_name": "simlate_crash",
+    "params": "-1",
+    "task_type": 2,
+    "scene_id": 2,
+    "run_times": 10
+  },
+  {
+    "task_name": "memorycheck",
+    "params": "",
+    "task_type": 1,
+    "scene_id": 3,
+    "run_times": 10
+  }
+]

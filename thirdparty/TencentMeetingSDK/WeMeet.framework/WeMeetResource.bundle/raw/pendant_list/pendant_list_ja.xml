@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stream>
+  <iq type="result">
+    <pendant_res language="ja">
+      <pendant_res_list>
+        <resource id="blackglasses" title="黒縁メガネ" icon="glass.png" resource_url="https://updatecdnv6.meeting.qq.com/resource-update/39c894458c3e6fd0c81108a74a9be908/accessory-1glass02.bundle.zip" resource_md5="39c894458c3e6fd0c81108a74a9be908"/>
+        <resource id="sunglasses" title="サングラス" icon="glass02.png" resource_url="https://updatecdnv6.meeting.qq.com/resource-update/5b5fa00fb1c0b6a74a0ea7b793138ec9/accessory-1glass.bundle.zip" resource_md5="5b5fa00fb1c0b6a74a0ea7b793138ec9"/>
+        <resource id="mosaicglasses" title="ドットサングラス" icon="glass-pixel.png" resource_url="https://updatecdnv6.meeting.qq.com/resource-update/28c86dbb8cb83ed9613255f2479fe11f/accessory-0glass-pixel.bundle.zip" resource_md5="28c86dbb8cb83ed9613255f2479fe11f"/>
+        <resource id="spaceglasses" title="パイロットゴーグル" icon="glass-blue.png" resource_url="https://updatecdnv6.meeting.qq.com/resource-update/23e51ae687c0db3ca07019ec6fb3f4fd/accessory-0glass-blue.bundle.zip" resource_md5="23e51ae687c0db3ca07019ec6fb3f4fd"/>
+        <resource id="rabbitear" title="うさぎ耳" icon="rabbit.png" resource_url="https://updatecdnv6.meeting.qq.com/resource-update/6b3d045cd680c626f80dd9bab61acc1b/rabbit.zip" resource_md5="6b3d045cd680c626f80dd9bab61acc1b"/>
+        <resource id="bearheadgear" title="くまのフード" icon="bear.png" resource_url="https://updatecdnv6.meeting.qq.com/resource-update/6c015e9d50636bd0e3a85c7cb5c2abd6/bear.zip" resource_md5="6c015e9d50636bd0e3a85c7cb5c2abd6"/>
+        <resource id="graduation_cap" title="角帽" icon="xueshimao.png" resource_url="https://updatecdnv6.meeting.qq.com/resource-update/80492824bc501d7ce219a6e778f2183f/accessory-0xueshimao.bundle.zip" resource_md5="80492824bc501d7ce219a6e778f2183f"/>
+        <resource id="mask" title="マスク" icon="mask.png"  resource_url="https://updatecdnv6.meeting.qq.com/resource-update/c3f48ce8e238936ddf7539977e1bed40/mask.zip" resource_md5="c3f48ce8e238936ddf7539977e1bed40"/>
+        <resource id="chibi_hairpin" title="ヘアバンド" icon="ball.png" resource_url="https://updatecdnv6.meeting.qq.com/resource-update/f309330b74bafe83229b21375f89aa20/ball.zip" resource_md5="f309330b74bafe83229b21375f89aa20"/>
+      </pendant_res_list>
+    </pendant_res>
+  </iq>
+</stream>

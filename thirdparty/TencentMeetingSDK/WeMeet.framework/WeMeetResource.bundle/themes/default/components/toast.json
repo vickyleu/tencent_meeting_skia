@@ -1,0 +1,35 @@
+{
+    "toast":{
+        "bg-color":"color-fill-2-3",
+        "bg-color-opacity":"color-opacity-4",
+        "text-color":"color-text-4",
+        "font-size":"font-size-2-3",
+        "font-weight":"font-weight-1",
+        "font-linehight":"font-linehight-2",
+        "radius":"radius-3",
+        "loading-tint-color":"color-text-3"
+    },
+    "toast_pc":{
+        "bg-color":"color-fill-2-3",
+        "bg-color-opacity":"color-opacity-4",
+        "text-color":"color-text-4",
+        "font-size":"font-size-2-3",
+        "font-weight":"font-weight-1",
+        "font-linehight":"font-linehight-2",
+        "loading-image":""
+    },
+    "toast_mobile#android":{
+        "loading-image-toast-horizontal":"toast-horizontal-loading",
+        "loading-image-toast-vertical":"toast-vertical-loading"
+    },
+    "toast_mobile":{
+        "bg-color":"color-fill-1-1",
+        "bg-color-opacity":"color-opacity-4",
+        "text-color":"color-text-4",
+        "font-size":"font-size-1-4",
+        "font-weight":"font-weight-1",
+        "font-linehight":"font-linehight-2",
+        "radius":"radius-3",
+        "loading-tint-color":"color-text-3"
+    }
+}

@@ -1,0 +1,2740 @@
+{
+    "name": "ModulesDependency",
+    "ioswrapper": "ModulesDependencyWrapper",
+    "preload": 1,
+    "dependencies": {
+        "runtime": "3.24.100.295"
+    },
+    "modules": [
+        {
+            "name": "account",
+            "path": "account_module",
+            "version": "3.24.100.295",
+            "dependencies": {
+                "runtime": "3.24.100.295"
+            },
+            "schemes": [
+                {
+                    "name": "wemeet://page/profile/email_authentication"
+                },
+                {
+                    "name": "wemeet://page/upload_log",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/profile/rebind_wechat"
+                },
+                {
+                    "name": "wemeet://page/profile/verify_wechat_result"
+                },
+                {
+                    "name": "wemeet://page/profile/verify_wechat"
+                },
+                {
+                    "name": "wemeet://page/profile/aboutus",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/profile",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/pay_info",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/profile/business_card_list",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/profile/business_card_switch",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/profile/business_card_edit",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/inmeeting/business_card_detail",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/premeeting/join/business_card_choose",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/inmeeting/business_card_choose",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/profile/business_card_third_party_providers",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/profile/business_card_third_party_apps",
+                    "exported": false
+                },
+                {
+                    "name": "wemeet://page/profile/business_card_manage",
+                    "exported": false
+                },
+                {
+                    "name": "wemeet://page/profile/nickname",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/profile/email",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/profile/unbind_wechat",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/profile/short_profile",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/profile/authentication",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/profile/practice_center_qt",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/profile/account_modify_password",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/profile/account_modify_password_menu",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/settings/account_and_security",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/profile/account_and_security",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/profile/create_organization",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/profile/supplement_organization_info",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/profile/device_status",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/profile/aboutus/x5_debug",
+                    "exported": true
+                }
+            ],
+            "contributes": {
+                "contributes:settings.setting_tabs": [],
+                "contributes:app.home_nickname": [
+                    {
+                        "extension": "extension:home_nickname"
+                    }
+                ],
+                "contributes:app.home_page_tab_container": []
+            },
+            "activation_events": [
+                "debug_assistant_scene:account.attached",
+                "on_startup_finished"
+            ],
+            "description": "帐户信息"
+        },
+        {
+            "name": "after_meeting",
+            "path": "after_meeting_module",
+            "version": "3.24.100.295",
+            "dependencies": {
+                "runtime": "3.24.100.295"
+            },
+            "schemes": [
+                {
+                    "name": "wemeet://page/after_meeting/close_meeting_conclusion",
+                    "exported": true
+                }
+            ],
+            "description": "",
+            "activation_events": [
+                "main_scene:historical_detail.init",
+                "in_meeting_scene:inmeeting.init"
+            ]
+        },
+        {
+            "name": "appbox",
+            "path": "appbox_module",
+            "version": "3.24.100.295",
+            "dependencies": {
+                "runtime": "3.24.100.295"
+            },
+            "schemes": [
+                {
+                    "name": "wemeet://page/web_app",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/after_meeting_app",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/web_open_app_set_permission",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/open_app_permission_setting_detail",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/translucent_screen",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/meeting_idea",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/meeting_idea_list",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/vote_list",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/vote_list_original",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/custom_layout_together_switch_seats",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/ai_helper",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/ai_helper_setting",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/ai_helper_setting_scope_dialog",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/assistant_notice",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/assistant_setting_in_meeting_setting",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/ai_helper_operate_dialog",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/ai_assistant_guide",
+                    "exported": true
+                }
+            ],
+            "commands": [],
+            "contributes": {
+                "contributes:app.toolbar": [
+                    {
+                        "extension": "extension:vote.toolbar"
+                    }
+                ],
+                "contributes:app.inmeeting_main": [],
+                "contributes:app.sidebar_tab_in_meeting": [],
+                "contributes:settings.setting_tabs": [],
+                "contributes:app.toolbox": [
+                    {
+                        "extension": "extension:tool_box_vote",
+                        "platform": [
+                            "OS_DESKTOP"
+                        ]
+                    }
+                ],
+                "contributes:app.official_app": [],
+                "contributes:app.schedule_meeting": [
+                    {
+                        "extension": "extension:vote.schedule_setting",
+                        "platform": [
+                            "OS_MOBILE"
+                        ]
+                    }
+                ],
+                "contributes:app.meeting_info": [],
+                "contributes:app.schedule_meeting.advanced_setting": []
+            },
+            "description": "toolbar上的应用按钮,应用可以抽象理解为两组应用的集合，包括官方应用和第三方应用，点击应用按钮可见官方应用，但是第三方应用需要特殊配置",
+            "activation_events": [
+                "main_scene:historical_detail.init",
+                "in_meeting_scene:inmeeting.init",
+                "webview:open_new_page",
+                "sdk.init_successed"
+            ],
+            "activation_app_model_events": [
+                {
+                    "model_type": 1000017,
+                    "event_id": [
+                        20
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "audio",
+            "path": "audio_module",
+            "version": "3.24.100.295",
+            "dependencies": {
+                "runtime": "3.24.100.295"
+            },
+            "schemes": [
+                {
+                    "name": "wemeet://module_audio_push_to_talk",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/inmeeting/audio_select",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/inmeeting/audio_exception_alert",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://audio_voice_print_input",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/settings/audio_music_mode_guide_alert",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/audio/pstn_call_alert",
+                    "exported": true
+                }
+            ],
+            "contributes": {
+                "contributes:app.toolbar": [],
+                "contributes:settings.setting_tabs": [],
+                "contributes:app.inmeeting_main": [],
+                "contributes:app.inmeeting_float": [],
+                "contributes:app.official_app": [],
+                "contributes:float_wnd_mini_toolbar_container_contributes": [],
+                "contributes:inmeeting.quick_operation_menu": [
+                    {
+                        "extension": "extension:audio.audio_in_quick_operation_menu",
+                        "platform": [
+                            "OS_DESKTOP"
+                        ]
+                    }
+                ]
+            },
+            "activation_app_model_events": [
+                {
+                    "model_type": 1000018,
+                    "event_id": [
+                        51
+                    ]
+                }
+            ],
+            "activation_events": [
+                "join_scene:business",
+                "setting_scene:mobile_setting.attached"
+            ],
+            "description": "会议中音频界面、toolbar音频逻辑"
+        },
+        {
+            "name": "breakout_room",
+            "path": "breakout_room_module",
+            "version": "3.24.100.295",
+            "dependencies": {
+                "runtime": "3.24.100.295"
+            },
+            "schemes": [
+                {
+                    "name": "wemeet://page/breakout_room/change_name"
+                },
+                {
+                    "name": "wemeet://page/breakout_room/member_list"
+                },
+                {
+                    "name": "wemeet://page/breakout_room/room_list"
+                },
+                {
+                    "name": "wemeet://page/breakout_room/setting",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://breakout_room/init",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/breakout_room",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/breakout_room/create_select",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/breakout_room/assignment",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/breakout_room/member_select",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/breakout_room/room_select",
+                    "exported": false
+                },
+                {
+                    "name": "wemeet://page/breakout_room/change_name",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/breakout_room/join_room",
+                    "exported": true
+                }
+            ],
+            "activation_events": [
+                "in_meeting_scene:inmeeting.init"
+            ],
+            "contributes": {},
+            "description": "分组会议"
+        },
+        {
+            "name": "business",
+            "path": "business_module",
+            "version": "3.24.100.295",
+            "dependencies": {
+                "runtime": "3.24.100.295"
+            },
+            "schemes": [
+                {
+                    "name": "wemeet://page/business/meetlog_smart_record_guide"
+                },
+                {
+                    "name": "wemeet://page/enhance_voice_vip_tip",
+                    "exported": true
+                }
+            ],
+            "contributes": {
+                "contributes:app.meeting_info": [
+                    {
+                        "extension": "extension:business.capacity_meeting_info"
+                    }
+                ]
+            },
+            "activation_events": [
+                "setting_scene:mobile_setting.attached",
+                "setting_scene:desktop_setting.attached",
+                "in_meeting_scene:inmeeting.init"
+            ],
+            "activation_app_model_events": [
+                {
+                    "model_type": 1000055,
+                    "event_id": [
+                        10006
+                    ]
+                }
+            ],
+            "description": ""
+        },
+        {
+            "name": "caption",
+            "path": "caption_module",
+            "version": "3.24.100.295",
+            "dependencies": {
+                "runtime": "3.24.100.295"
+            },
+            "schemes": [
+                {
+                    "name": "wemeet://page/caption/caption_whole"
+                },
+                {
+                    "name": "wemeet://page/caption/caption_setting"
+                },
+                {
+                    "name": "wemeet://page/realtime_caption_webview",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/caption",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/caption/caption_transcription_setting",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/caption/hotwords_setting"
+                }
+            ],
+            "commands": [
+                "Caption_CallFuncGetCaptionInfo",
+                "Caption_CallFuncGetCaptionCount",
+                "Caption_CallFuncControlShow",
+                "Caption_EventCaptionWholeClick"
+            ],
+            "contributes": {
+                "contributes:app.toolbar": [],
+                "contributes:app.official_app": [],
+                "contributes:settings.setting_tabs": [],
+                "contributes:app.inmeeting_main": [],
+                "contributes:app.inmeeting_float": [
+                    {
+                        "extension": "extension.caption.caption_meeting_text",
+                        "platform": [
+                            "OS_DESKTOP"
+                        ]
+                    }
+                ],
+                "contributes:app.caption_text_screen_float_container": [
+                    {
+                        "extension": "extension.caption.caption_screen_meeting_text",
+                        "platform": [
+                            "OS_DESKTOP"
+                        ]
+                    }
+                ]
+            },
+            "description": "字幕"
+        },
+        {
+            "name": "chat",
+            "path": "chat_module",
+            "version": "3.24.100.295",
+            "dependencies": {
+                "runtime": "3.24.100.295"
+            },
+            "schemes": [
+                {
+                    "name": "wemeet://page/breakout_room/broadcast_im",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/meeting_notice",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/chat_activity",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/inmeeting/chat",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/inmeeting/emoji_bullet",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/chat_control/manual_check",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/chat_file_preview",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/chatrecord/chat_file_download",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/inmeeting/setting/chat",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/chat_file_download",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/chat_record",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/chat_setting",
+                    "exported": true,
+                    "platform": [
+                        "OS_IOS"
+                    ]
+                }
+            ],
+            "contributes": {
+                "contributes:app.toolbar": [
+                    {
+                        "extension": "extension:chat"
+                    }
+                ],
+                "contributes:inmeeting.quick_operation_menu": [
+                    {
+                        "extension": "extension:chat.private_talk_in_quick_operation_menu",
+                        "platform": [
+                            "OS_DESKTOP"
+                        ]
+                    },
+                    {
+                        "extension": "extension:chat.chat_permissions_talk_in_quick_operation_menu",
+                        "platform": [
+                            "OS_DESKTOP"
+                        ]
+                    },
+                    {
+                        "extension": "extension:chat.history_message_in_quick_operation_menu",
+                        "platform": [
+                            "OS_DESKTOP"
+                        ]
+                    }
+                ],
+                "contributes:app.inmeeting_float": [
+                    {
+                        "extension": "extension:chat.bullet",
+                        "platform": [
+                            "OS_ANDROID",
+                            "OS_IOS",
+                            "OS_LINUX",
+                            "OS_WIN"
+                        ]
+                    }
+                ]
+            },
+            "activation_app_model_events": [
+                {
+                    "model_type": 1000024,
+                    "event_id": [
+                        0
+                    ]
+                },
+                {
+                    "model_type": 501,
+                    "event_id": [
+                        10
+                    ]
+                }
+            ],
+            "description": "聊天（im）"
+        },
+        {
+            "name": "company_contacts",
+            "path": "company_contacts_module",
+            "version": "3.24.100.295",
+            "dependencies": {
+                "runtime": "3.24.100.295"
+            },
+            "schemes": [
+                {
+                    "name": "wemeet://page/company_contact_invite_1v1"
+                },
+                {
+                    "name": "wemeet://page/company_contacts",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/company_contact_info",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/company_contact_invite_list",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/company_contact_inmeeting_invite",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/company_contact_manage",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/company_contact_invite",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/person_contact_info_source",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/person_contact_novice_guide",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/person_contact_new_add_user_list",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/company_contacts_embed",
+                    "exported": true
+                }
+            ],
+            "exclude_build": [
+                {
+                    "channel": [
+                        "WeWork"
+                    ]
+                }
+            ],
+            "commands": [],
+            "contributesid": [],
+            "contributes": {
+                "contributes:app.schedule_meeting": [],
+                "contributes:app.invite_tab_container": [],
+                "contributes:app.quick_record_share_assign_container": [
+                    {
+                        "extension": "company_contacts:extension:company_contacts_qt",
+                        "platform": [
+                            "OS_DESKTOP"
+                        ]
+                    }
+                ]
+            },
+            "description": "企业组织架构",
+            "activation_events": [
+                "webview:open_new_page",
+                "invite:pmi_host_assign"
+            ]
+        },
+        {
+            "name": "docs",
+            "path": "docs_module",
+            "version": "3.24.100.295",
+            "dependencies": {
+                "runtime": "3.24.100.295"
+            },
+            "schemes": [
+                {
+                    "name": "wemeet://page/docs",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/docs_detail",
+                    "exported": true
+                }
+            ],
+            "contributes": {
+                "contributes:app.toolbar": [],
+                "contributes:app.schedule_meeting": [],
+                "contributes:app.meeting_info": [],
+                "contributes:app.official_app": []
+            },
+            "exclude_build": [
+                {
+                    "channel": [
+                        "WeWork"
+                    ]
+                }
+            ],
+            "description": "会议内文档",
+            "activation_events": [
+                "main_scene:historical_detail.init"
+            ]
+        },
+        {
+            "name": "historical_meetings",
+            "path": "historical_meetings_module",
+            "version": "3.24.100.295",
+            "dependencies": {
+                "runtime": "3.24.100.295"
+            },
+            "schemes": [
+                {
+                    "name": "wemeet://page/history/meeting_list",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/history/meeting_info",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/history/join_meeting_list_dialog",
+                    "exported": true
+                }
+            ],
+            "exclude_build": [
+                {
+                    "channel": [
+                        "WeWork"
+                    ]
+                }
+            ],
+            "contributes": {},
+            "activation_events": [
+                "main_scene:historical_load.attached",
+                "sdk.init_successed"
+            ],
+            "activation_app_model_events": [
+                {
+                    "model_type": 1000026,
+                    "event_id": [
+                        2,
+                        100014
+                    ]
+                }
+            ],
+            "description": "历史会议"
+        },
+        {
+            "name": "invite",
+            "path": "invite_module",
+            "version": "3.24.100.295",
+            "dependencies": {
+                "runtime": "3.24.100.295"
+            },
+            "schemes": [
+                {
+                    "name": "wemeet://page/inmeeting/bulk_pstn_invite"
+                },
+                {
+                    "name": "wemeet://page/share/meeting",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/pstninvite",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/inmeeting/meetinginfo",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/share/after_schedule",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/premeeting/invite",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/meeting_info/invite_list",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/pstn_select_out_number",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/cloud_record_share_sheet",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/inmeeting/invite_wework_list",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/inmeeting/invite_wework_window",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/pstn_invite_webview",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/pstn_country_tele_list",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/pstn_choose_country_code",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/invite/show_wework_app_list",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/invite/mra_invite_dial",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/share_to_mra",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/meeting_room_for_debug",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/pstn_wework_dial_confirm",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/share/redirect",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/share/web",
+                    "exported": true
+                }
+            ],
+            "activation_events": [
+                "in_meeting_scene:inmeeting.init"
+            ],
+            "contributes": {
+                "contributes:app.toolbar": [],
+                "contributes:app.meeting_info": [
+                    {
+                        "extension": "extension:invite.calendar_share",
+                        "platform": [
+                            "OS_IOS"
+                        ]
+                    }
+                ],
+                "contributes:app.official_app": [],
+                "contributes:settings.personal_setting": [],
+                "contributes:app.invite_tab_container": [],
+                "contributes:app.schedule_meeting": [],
+                "contributes:inmeeting.quick_operation_menu": [
+                    {
+                        "extension": "extension:audio.mcu_dialpad_in_quick_operation_menu",
+                        "platform": [
+                            "OS_DESKTOP"
+                        ]
+                    }
+                ]
+            },
+            "description": "邀请"
+        },
+        {
+            "name": "join_meeting",
+            "path": "join_meeting_module",
+            "version": "3.24.100.295",
+            "dependencies": {
+                "runtime": "3.24.100.295"
+            },
+            "schemes": [
+                {
+                    "name": "wemeet://page/premeeting/join_view"
+                },
+                {
+                    "name": "wemeet://page/join_meeting/init"
+                },
+                {
+                    "name": "wemeet://page/premeeting/join",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/meeting_card",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/meeting_web_activity_card",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/premeeting/select_join_mode",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/premeeting/select_join_mode_qt",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/warmup_media",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/user_change_nickname",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/nxui/join_meeting_nxui_test_window",
+                    "exported": true
+                }
+            ],
+            "exclude_build": [
+                {
+                    "channel": [
+                        "WeWork"
+                    ],
+                    "platform": [
+                        "Android",
+                        "iOS"
+                    ]
+                }
+            ],
+            "contributes": {
+                "contributes:app.inmeeting_top": [
+                    {
+                        "extension": "extension:joinmeeting.waiting_room"
+                    }
+                ]
+            },
+            "description": "加入会议"
+        },
+        {
+            "name": "media_process",
+            "path": "media_process_module",
+            "version": "3.24.100.295",
+            "dependencies": {
+                "runtime": "3.24.100.295"
+            },
+            "schemes": [
+                {
+                    "name": "wemeet://page/inmeeting/setting/facebeauty",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/inmeeting/setting/facebeauty_web",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/inmeeting/setting/backgroundblur",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/virtualbg_preview",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/media_process/quick_record/vbkg_view",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/schedule_meeting_virtual_bkg_setting",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/inmeeting/setting/facebeauty/pendant_pay_guide",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/inmeeting/setting/vbg/vbg_pay_guide",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/inmeeting/setting/facebeauty/video_decoration_pay_guide",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/schedule_meeting_virtual_bkg_setting_pay_guide",
+                    "exported": true
+                }
+            ],
+            "contributes": {
+                "contributes:app.toolbar": [],
+                "contributes:settings.setting_tabs": [],
+                "contributes:app.official_app": [],
+                "contributes:app.toolbox": [],
+                "contributes:app.schedule_meeting.advanced_setting": [],
+                "contributes:app.schedule_meeting": []
+            },
+            "description": "虚拟背景+美颜"
+        },
+        {
+            "name": "meeting_dashboard",
+            "path": "meeting_dashboard_module",
+            "version": "3.24.100.295",
+            "dependencies": {
+                "runtime": "3.24.100.295"
+            },
+            "schemes": [
+                {
+                    "name": "wemeet://page/meeting_dashboard",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/meeting_elapsedtime",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/webinar_meeting_info",
+                    "exported": true
+                }
+            ],
+            "contributes": {},
+            "description": ""
+        },
+        {
+            "name": "meeting_live",
+            "path": "meeting_live_module",
+            "version": "3.24.100.295",
+            "dependencies": {
+                "runtime": "3.24.100.295"
+            },
+            "schemes": [
+                {
+                    "name": "wemeet://page/watch_live",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/premeeting/live",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/inmeeting/live",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/meeting_live_setting",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/overseas_live",
+                    "exported": true
+                }
+            ],
+            "exclude_build": [
+                {
+                    "channel": [
+                        "WeWork"
+                    ]
+                }
+            ],
+            "activation_events": [
+                "in_meeting_scene:inmeeting.init",
+                "main_scene:historical_detail.init"
+            ],
+            "contributes": {
+                "contributes:app.toolbar": [],
+                "contributes:app.schedule_meeting": [],
+                "contributes:app.meeting_info": [],
+                "contributes:app.official_app": [],
+                "contributes:app.schedule_meeting.advanced_setting": []
+            },
+            "activation_app_model_events": [
+                {
+                    "model_type": 1000024,
+                    "event_id": [
+                        0
+                    ]
+                }
+            ],
+            "description": "直播"
+        },
+        {
+            "name": "meeting_room",
+            "path": "meeting_room_module",
+            "version": "3.24.100.295",
+            "dependencies": {
+                "runtime": "3.24.100.295"
+            },
+            "schemes": [
+                {
+                    "name": "wemeet://page/meeting_room",
+                    "exported": true
+                }
+            ],
+            "exclude_build": [
+                {
+                    "channel": [
+                        "WeWork"
+                    ]
+                }
+            ],
+            "contributes": {
+                "contributes:app.schedule_meeting": [
+                    {
+                        "extension": "extension:meeting_room.meeting_room_schedule_setting"
+                    }
+                ],
+                "contributes:app.meeting_info": []
+            },
+            "description": "预定会议时选择会议室"
+        },
+        {
+            "name": "member",
+            "path": "member_module",
+            "version": "3.24.100.295",
+            "dependencies": {
+                "runtime": "3.24.100.295"
+            },
+            "schemes": [
+                {
+                    "name": "wemeet://page/inmeeting/member/select_members",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/inmeeting/member/expand_selected_members",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/inmeeting/member_list",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/inmeeting/inviting_member_list",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/inmeeting/members",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/inmeeting/webinar_members",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/inmeeting/raise_hand_member_list",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/inmeeting/member/host_key",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/inmeeting/member/specified_host_list",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/inmeeting/invite_list",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/inmeeting/member/change_nickname",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/inmeeting/kickout",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/inmeeting/safety/settings",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/inmeeting/safety/push",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/inmeeting/suspend_participant_window",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/inmeeting/interact_emoji_pay_guide",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/inmeeting/interact_emoji_guide",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/inmeeting/member/modify_nickname",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/inmeeting/more/settings",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/inmeeting/bot/join_notify",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/inmeeting/more/sub/settings",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/inmeeting/setting",
+                    "exported": true,
+                    "platform": [
+                        "OS_IOS"
+                    ]
+                },
+                {
+                    "name": "wemeet://page/more_in_meeting_settings",
+                    "exported": true,
+                    "platform": [
+                        "OS_IOS"
+                    ]
+                },
+                {
+                    "name": "wemeet://page/inmeeting/multi_device_join_tips",
+                    "exported": true
+                }
+            ],
+            "contributes": {
+                "contributes:app.toolbar": [],
+                "contributes:app.sidebar_tab_in_meeting": [],
+                "contributes:app.official_app": [],
+                "contributes:app.schedule_meeting": [],
+                "contributes:app.meeting_info": [],
+                "contributes:app.member_detail_tips": [],
+                "contributes:app.schedule_meeting.safe_setting": [],
+                "contributes:inmeeting.quick_operation_menu": [
+                    {
+                        "extension": "extension:member.remove_member_in_quick_operation_menu",
+                        "platform": [
+                            "OS_DESKTOP"
+                        ]
+                    },
+                    {
+                        "extension": "extension:member.cohost_in_quick_operation_menu",
+                        "platform": [
+                            "OS_DESKTOP"
+                        ]
+                    },
+                    {
+                        "extension": "extension:member.host_in_quick_operation_menu",
+                        "platform": [
+                            "OS_DESKTOP"
+                        ]
+                    },
+                    {
+                        "extension": "extension:member.user_audio_in_quick_operation_menu",
+                        "platform": [
+                            "OS_DESKTOP"
+                        ]
+                    },
+                    {
+                        "extension": "extension:member.user_video_in_quick_operation_menu",
+                        "platform": [
+                            "OS_DESKTOP"
+                        ]
+                    },
+                    {
+                        "extension": "extension:member.user_role_in_quick_operation_menu",
+                        "platform": [
+                            "OS_DESKTOP"
+                        ]
+                    },
+                    {
+                        "extension": "extension:member.waitingroom_in_quick_operation_menu",
+                        "platform": [
+                            "OS_DESKTOP"
+                        ]
+                    },
+                    {
+                        "extension": "extension:member.report_in_quick_operation_menu",
+                        "platform": [
+                            "OS_DESKTOP"
+                        ]
+                    },
+                    {
+                        "extension": "extension:audio.speak_in_quick_operation_menu",
+                        "platform": [
+                            "OS_DESKTOP"
+                        ]
+                    },
+                    {
+                        "extension": "extension:app.corp_logo_in_quick_operation_menu",
+                        "platform": [
+                            "OS_DESKTOP"
+                        ]
+                    }
+                ],
+                "contributes:app.inmeeting_float": [
+                    {
+                        "extension": "extension:webinar.give_like"
+                    }
+                ]
+            },
+            "description": "成员管理 举手 安全设置"
+        },
+        {
+            "name": "misc",
+            "path": "misc_module",
+            "version": "3.24.100.295",
+            "dependencies": {
+                "runtime": "3.24.100.295"
+            },
+            "schemes": [
+                {
+                    "name": "wemeet://page/webinar_trail",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/cross_account_snackbar",
+                    "exported": true
+                }
+            ],
+            "contributes": {
+                "contributes:app.home_navigation_bar_bottom_container": [
+                    {
+                        "extension": "misc:extension:home_navigation_bar_bottom_setting"
+                    },
+                    {
+                        "extension": "misc:extension:home_navigation_bar_bottom_switch_account"
+                    }
+                ],
+                "contributes:app.home_navigation": [
+                    {
+                        "extension": "misc:extension:rooms_meeting"
+                    },
+                    {
+                        "extension": "misc:extension:join_meeting"
+                    },
+                    {
+                        "extension": "misc:extension:back_meeting",
+                        "platform": [
+                            "OS_DESKTOP"
+                        ]
+                    }
+                ],
+                "contributes:app.toolbar": [],
+                "contributes:settings.setting_tabs": [],
+                "contributes:app.official_app": [],
+                "contributes:app.inmeeting_float": []
+            },
+            "exclude_build": [
+                {
+                    "channel": [
+                        "WeWork"
+                    ]
+                }
+            ],
+            "description": "工具集"
+        },
+        {
+            "name": "operating_activities",
+            "path": "operating_activities_module",
+            "version": "3.24.100.295",
+            "dependencies": {
+                "runtime": "3.24.100.295"
+            },
+            "schemes": [
+                {
+                    "name": "wemeet://page/operating_activities/block_meeting_view",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/upgrade_info_dispaly",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/operating_activities/upgrade_info_display_old_version",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/big_feature_guide_alert",
+                    "exported": true
+                }
+            ],
+            "exclude_build": [
+                {
+                    "channel": [
+                        "PrivateSdk",
+                        "WeWork",
+                        "Private"
+                    ]
+                }
+            ],
+            "contributes": {},
+            "description": "",
+            "activation_events": [
+                "main_scene:home_navigation.attached"
+            ],
+            "activation_app_model_events": [
+                {
+                    "model_type": 1000041,
+                    "event_id": [
+                        0,
+                        1,
+                        2,
+                        3,
+                        4,
+                        20,
+                        22,
+                        24
+                    ]
+                },
+                {
+                    "model_type": 501,
+                    "event_id": [
+                        8
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "qr_entrance",
+            "path": "qr_entrance_module",
+            "version": "3.24.100.295",
+            "dependencies": {
+                "runtime": "3.24.100.295"
+            },
+            "schemes": [],
+            "contributes": {
+                "contributes:home.head_extension_container": [
+                    {
+                        "extension": "extension:qr_entrance"
+                    }
+                ],
+                "contributes:app.home_page_tab_container": []
+            },
+            "activation_events": [
+                "premeeting:home_tab_init",
+                "webview:open_new_page"
+            ],
+            "activation_app_model_events": [
+                {
+                    "model_type": 514,
+                    "event_id": [
+                        1,
+                        18
+                    ]
+                }
+            ],
+            "exclude_build": [
+                {
+                    "channel": [
+                        "WeWork"
+                    ],
+                    "platform": [
+                        "iOS"
+                    ]
+                }
+            ],
+            "description": ""
+        },
+        {
+            "name": "question_answer",
+            "path": "question_answer_module",
+            "version": "3.24.100.295",
+            "dependencies": {
+                "runtime": "3.24.100.295"
+            },
+            "schemes": [
+                {
+                    "name": "wemeet://page/question_answer"
+                },
+                {
+                    "name": "wemeet://page/chat_qa"
+                }
+            ],
+            "contributes": {
+                "contributes:app.toolbar": [],
+                "contributes:app.sidebar_tab_in_meeting": [],
+                "contributes:app.official_app": []
+            },
+            "exclude_build": [
+                {
+                    "channel": [
+                        "WeWork"
+                    ]
+                }
+            ],
+            "description": "会中的问答功能"
+        },
+        {
+            "name": "quick_meeting",
+            "path": "quick_meeting_module",
+            "version": "3.24.100.295",
+            "dependencies": {
+                "runtime": "3.24.100.295"
+            },
+            "schemes": [
+                {
+                    "name": "wemeet://page/quick_meeting_setting",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/quick_meeting/init",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/nxui/quick_meeting_nxui_test",
+                    "exported": true
+                }
+            ],
+            "exclude_build": [
+                {
+                    "channel": [
+                        "WeWork"
+                    ]
+                }
+            ],
+            "contributes": {
+                "contributes:app.home_navigation": []
+            },
+            "description": "快速会议",
+            "activation_events": [
+                "webview:open_new_page"
+            ]
+        },
+        {
+            "name": "record",
+            "path": "record_module",
+            "version": "3.24.100.295",
+            "dependencies": {
+                "runtime": "3.24.100.295"
+            },
+            "schemes": [
+                {
+                    "name": "wemeet://page/history/cloud_record_list",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/cloud_record_share_setting",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/premeeting/auto_record",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/cloud_record_setting",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/transcode_progress",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/record_local_setting",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/cloud_record_mail_input",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/cloud_record_instance_select",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/multi_record_instance_setting",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/auto_record_alert",
+                    "exported": true,
+                    "platform": [
+                        "OS_IOS"
+                    ]
+                },
+                {
+                    "name": "wemeet://page/record/in_meeting_record_confirm_alert",
+                    "exported": true
+                }
+            ],
+            "contributes": {
+                "contributes:app.toolbar": [],
+                "contributes:app.schedule_meeting": [],
+                "contributes:settings.setting_tabs": [],
+                "contributes:app.inmeeting_float": [],
+                "contributes:app.screen_info": [],
+                "contributes:app.official_app": [],
+                "contributes:inmeeting.quick_operation_menu": [
+                    {
+                        "extension": "extension:record.record_in_quick_operation_menu",
+                        "platform": [
+                            "OS_DESKTOP"
+                        ]
+                    }
+                ]
+            },
+            "activation_app_model_events": [
+                {
+                    "model_type": 1000018,
+                    "event_id": [
+                        0,
+                        6,
+                        8,
+                        32,
+                        29,
+                        38
+                    ]
+                }
+            ],
+            "description": "录制"
+        },
+        {
+            "name": "ring",
+            "path": "ring_module",
+            "version": "3.24.100.295",
+            "dependencies": {
+                "runtime": "3.24.100.295"
+            },
+            "schemes": [
+                {
+                    "name": "wemeet://page/ring/ringing",
+                    "exported": true
+                }
+            ],
+            "exclude_build": [
+                {
+                    "channel": [
+                        "WeWork"
+                    ]
+                }
+            ],
+            "contributes": {},
+            "description": "邀请响铃，预定会议或者会中通过企业通讯录邀请触发对端响铃",
+            "activation_app_model_events": [
+                {
+                    "model_type": 501,
+                    "event_id": [
+                        49
+                    ]
+                }
+            ],
+            "activation_events": [
+                {
+                    "event": "on_startup_finished",
+                    "platform": [
+                        "OS_IOS"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "rooms_controller",
+            "path": "rooms_controller_module",
+            "version": "3.24.100.295",
+            "dependencies": {
+                "runtime": "3.24.100.295"
+            },
+            "schemes": [
+                {
+                    "name": "wemeet://page/rooms_controller/pre_pair",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/rooms_controller/pre_pair_guide"
+                },
+                {
+                    "name": "wemeet://page/rooms_controller/controller_page",
+                    "exported": true
+                }
+            ],
+            "exclude_build": [
+                {
+                    "channel": [
+                        "WeWork"
+                    ]
+                }
+            ],
+            "contributes": {
+                "contributes:app.toolbar": [
+                    {
+                        "extension": "extension:toolbar.rooms_controller",
+                        "platform": [
+                            "OS_DESKTOP"
+                        ]
+                    },
+                    {
+                        "extension": "extension:toolbar.rooms_controller_paired",
+                        "platform": [
+                            "OS_DESKTOP"
+                        ]
+                    }
+                ],
+                "contributes:rooms_controller.bluetooth_authorized_guide": [
+                    {
+                        "extension": "extension:rooms_controller.guide_tips"
+                    }
+                ]
+            },
+            "activation_events": [
+                "cast_code_scene:input_rooms_code.attached",
+                "rooms_controller:init"
+            ],
+            "description": "Rooms控制器"
+        },
+        {
+            "name": "scan_qrcode",
+            "path": "scan_qrcode_module",
+            "version": "3.24.100.295",
+            "dependencies": {
+                "runtime": "3.24.100.295"
+            },
+            "schemes": [
+                {
+                    "name": "wemeet://page/scan_qrcode",
+                    "exported": true
+                }
+            ],
+            "contributes": {
+                "contributes:profile.top_container": []
+            },
+            "exclude_build": [
+                {
+                    "channel": [
+                        "PrivateSdk",
+                        "WeWork"
+                    ]
+                },
+                {
+                    "platform": [
+                        "Windows",
+                        "OSX",
+                        "Linux"
+                    ]
+                }
+            ],
+            "description": "",
+            "activation_events": [
+                "ScanQrcode:open_qrcode_url"
+            ]
+        },
+        {
+            "name": "schedule_meeting",
+            "path": "schedule_meeting_module",
+            "version": "3.24.100.295",
+            "dependencies": {
+                "runtime": "3.24.100.295"
+            },
+            "schemes": [
+                {
+                    "name": "wemeet://page/premeeting/schedule",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/premeeting/schedule_webinar",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/premeeting/meetinginfo",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/premeeting/schedule_select",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/premeeting/schedule_invite",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/shedule_select",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/after_schedule_guide",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/after_schedule_guide_notification_setting",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/schedule_wework_connect",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/premeeting/schedule/mute_on_join",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/premeeting/schedule/video_player",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/premeeting/private_meetinginfo",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/premeeting/schedule_plugin_download",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/period_meeting_list",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/period_meeting_until_setting",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/period_meeting_recurring_setting",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/period_meeting_custom_repeat_setting",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/premeeting/share_meeting",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/join_meeting_tips",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/schedule_concurrent_dialog",
+                    "exported": true
+                }
+            ],
+            "exclude_build": [
+                {
+                    "channel": [
+                        "WeWork"
+                    ]
+                }
+            ],
+            "contributes": {
+                "contributes:app.home_navigation": [],
+                "contributes:home.list_container": [],
+                "contributes:app.home_meeting_info_tab": [],
+                "contributes:schedule.multi_tip_container": [
+                    {
+                        "extension": "extension:schedule_meeting.multi.tip"
+                    }
+                ]
+            },
+            "description": "预定会议",
+            "activation_events": [
+                "main_scene:home_navigation.attached"
+            ]
+        },
+        {
+            "name": "screen_share",
+            "path": "screen_share_module",
+            "version": "3.24.100.295",
+            "dependencies": {
+                "runtime": "3.24.100.295"
+            },
+            "schemes": [
+                {
+                    "name": "wemeet://page/inmeeting/remote_control_member_select"
+                },
+                {
+                    "name": "wemeet://page/inmeeting/screen_zoom_status_bar"
+                },
+                {
+                    "name": "wemeet://page/inmeeting/ppt_control_members_select"
+                },
+                {
+                    "name": "wemeet://page/inmeeting/remote_control_separate_wnd"
+                },
+                {
+                    "name": "wemeet://page/inmeeting/remote_control_separate_wnd_toolbar"
+                },
+                {
+                    "name": "wemeet://page/rooms_meeting/init"
+                },
+                {
+                    "name": "wemeet://page/rooms_video"
+                },
+                {
+                    "name": "wemeet://page/rooms_cast_code_tips"
+                },
+                {
+                    "name": "wemeet://page/rooms_cast_code_tips_nxui"
+                },
+                {
+                    "name": "wemeet://page/inmeeting/partial_share_background"
+                },
+                {
+                    "name": "wemeet://page/inmeeting/remote_control_tips"
+                },
+                {
+                    "name": "wemeet://page/inmeeting/screen_share_capture_upgrade_tips"
+                },
+                {
+                    "name": "wemeet://page/inmeeting/screen_share_capture_setting_menu"
+                },
+                {
+                    "name": "wemeet://page/inmeeting/screen_capture_limit_tip"
+                },
+                {
+                    "name": "wemeet://page/inmeeting/screen_capture_window_block_introduce"
+                },
+                {
+                    "name": "wemeet://page/inmeeting/share_capture_setting_customize_select"
+                },
+                {
+                    "name": "wemeet://page/inmeeting/screen_share_fold_guide"
+                },
+                {
+                    "name": "wemeet://page/inmeeting/screen_share_local_video_source"
+                },
+                {
+                    "name": "wemeet://page/inmeeting/screen_share/partial_window",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/inmeeting/cooperation_tip",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/inmeeting/cooperation_toolbar",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/inmeeting/screen_share_toolbar",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/inmeeting/window_share",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/inmeeting/annotation_toolbar",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/watermark",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/watermark_nxui",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/inmeeting/share_partial_tracker",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/rooms_meeting_setting",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/rooms_function_introduced",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/rooms_function_guide",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/inmeeting/whiteboard_container",
+                    "exported": false
+                },
+                {
+                    "name": "wemeet://page/inmeeting/whiteboard",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/inmeeting/cooperation",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/inmeeting/annotation",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/inmeeting/whiteboard_text",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/inmeeting/picture_in_picture",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/inmeeting/partial_window",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/inmeeting/screen_share_monitor_tips",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/inmeeting/screen_share_normal_tracker",
+                    "exported": true
+                }
+            ],
+            "contributes": {
+                "contributes:app.schedule_meeting": [
+                    {
+                        "extension": "extension:screen_share.water_mark_schedule_setting",
+                        "platform": [
+                            "OS_MOBILE"
+                        ]
+                    }
+                ],
+                "contributes:in_meeting.window_top": [
+                    {
+                        "extension": "extension:screen_share.zoom",
+                        "platform": [
+                            "OS_WIN",
+                            "OS_MACOSX"
+                        ]
+                    },
+                    {
+                        "extension": "extension:screen_share.audio",
+                        "platform": [
+                            "OS_DESKTOP"
+                        ]
+                    },
+                    {
+                        "extension": "extension:tool_box_app.collaboration",
+                        "platform": [
+                            "OS_DESKTOP",
+                            "OS_MOBILE"
+                        ]
+                    }
+                ],
+                "contributes:in_meeting.info.screen_share": [
+                    {
+                        "extension": "extension:screen_share.tab_bar_network_info",
+                        "platform": [
+                            "OS_DESKTOP"
+                        ]
+                    }
+                ],
+                "contributes:in_meeting.topbar_misc_control": [
+                    {
+                        "extension": "extension:screen_share.annotation",
+                        "platform": [
+                            "OS_WIN",
+                            "OS_MACOSX"
+                        ]
+                    },
+                    {
+                        "extension": "extension:screen_share.remote_control",
+                        "platform": [
+                            "OS_WIN",
+                            "OS_MACOSX"
+                        ]
+                    },
+                    {
+                        "extension": "extension:screen_share.ppt_control",
+                        "platform": [
+                            "OS_WIN",
+                            "OS_MACOSX"
+                        ]
+                    }
+                ],
+                "contributes:app.inmeeting_main": [
+                    {
+                        "extension": "extension:screen_share.control",
+                        "platform": [
+                            "OS_IOS"
+                        ]
+                    },
+                    {
+                        "extension": "extension:screen_share.whiteboard",
+                        "platform": [
+                            "OS_IOS"
+                        ]
+                    },
+                    {
+                        "extension": "extension:screen_share.cooperation_board",
+                        "platform": [
+                            "OS_IOS"
+                        ]
+                    },
+                    {
+                        "extension": "extension:screen_share.icloud_drive",
+                        "platform": [
+                            "OS_IOS"
+                        ]
+                    }
+                ],
+                "contributes:app.toolbar": [
+                    {
+                        "extension": "extension:screen_share"
+                    },
+                    {
+                        "extension": "extension:tool_bar.annotation",
+                        "platform": [
+                            "OS_WIN",
+                            "OS_MACOSX"
+                        ]
+                    },
+                    {
+                        "extension": "extension:toolbar.screenshare.fold",
+                        "platform": [
+                            "OS_WIN",
+                            "OS_MACOSX"
+                        ]
+                    },
+                    {
+                        "extension": "extension:screen_share.participate_cooperation",
+                        "platform": [
+                            "OS_MOBILE"
+                        ]
+                    },
+                    {
+                        "extension": "extension:screen_share.stop_member_share",
+                        "platform": [
+                            "OS_MOBILE"
+                        ]
+                    }
+                ],
+                "contributes:app.screen_info": [
+                    {
+                        "extension": "extension:screen_share.small_bar",
+                        "platform": [
+                            "OS_DESKTOP"
+                        ]
+                    }
+                ],
+                "contributes:app.inmeeting_float": [
+                    {
+                        "extension": "extension:screen_share.remind_timer_crad",
+                        "platform": [
+                            "OS_WIN",
+                            "OS_MACOSX"
+                        ]
+                    },
+                    {
+                        "extension": "extension:screen_share.ppt_control_card",
+                        "platform": [
+                            "OS_WIN",
+                            "OS_MACOSX"
+                        ]
+                    }
+                ],
+                "contributes:app.caption_text_screen_float_container": [
+                    {
+                        "extension": "extension:screen_share.remind_timer_crad",
+                        "platform": [
+                            "OS_WIN",
+                            "OS_MACOSX"
+                        ]
+                    }
+                ],
+                "contributes:app.schedule_meeting.safe_setting": [],
+                "contributes:inmeeting.quick_operation_menu": [
+                    {
+                        "extension": "extension:screen_share.user_share_in_quick_operation_menu",
+                        "platform": [
+                            "OS_DESKTOP"
+                        ]
+                    }
+                ],
+                "contributes:common.setting": [
+                    {
+                        "extension": "extension:screen_share.screen_capture_setting",
+                        "platform": [
+                            "OS_DESKTOP"
+                        ]
+                    },
+                    {
+                        "extension": "extension:screen_share.window_block",
+                        "platform": [
+                            "OS_DESKTOP"
+                        ]
+                    }
+                ],
+                "contributes:rooms_controller.select_bluetooth_match": [
+                    {
+                        "extension": "extension:rooms_controller.select_match"
+                    }
+                ],
+                "contributes:rooms_controller.bluetooth_authorized_guide": [
+                    {
+                        "extension": "extension:rooms_controller.guide_tips"
+                    }
+                ]
+            },
+            "activation_app_model_events": [
+                {
+                    "model_type": 1000021,
+                    "event_id": [
+                        72,
+                        104,
+                        105,
+                        106,
+                        108,
+                        109,
+                        110,
+                        111,
+                        112,
+                        113,
+                        114,
+                        115,
+                        116,
+                        118,
+                        119,
+                        120,
+                        121,
+                        122,
+                        123,
+                        124,
+                        125,
+                        126,
+                        127,
+                        128,
+                        129,
+                        130,
+                        131,
+                        132,
+                        133,
+                        134,
+                        135,
+                        136,
+                        137,
+                        138,
+                        139,
+                        146
+                    ]
+                }
+            ],
+            "activation_events": [
+                "premeeting:temp_force_load_screen_share.for.android.only"
+            ],
+            "description": "屏幕共享"
+        },
+        {
+            "name": "settings",
+            "path": "settings_module",
+            "version": "3.24.100.295",
+            "dependencies": {
+                "runtime": "3.24.100.295"
+            },
+            "schemes": [
+                {
+                    "name": "wemeet://page/setting",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/inmeeting/setting",
+                    "exported": true,
+                    "platform": [
+                        "OS_ANDROID",
+                        "OS_DESKTOP"
+                    ]
+                },
+                {
+                    "name": "wemeet://page/inmeeting/setting_for_mobile",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/setting_sync_calendar_home",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/setting_sync_calendar",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/calendar_setting_guide",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/personal_meeting_setting",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/personal_meeting_password_setting",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/personal_meeting_info_setting",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/personal_meeting_mobile_room_name_setting",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/language_select",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/network_detect",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/speaker_enhance_setting",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/voice_print_prepare",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/voice_print_earphone_model",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/voice_print_detect_noise",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/voice_print_recording",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/quality_monitor/network_detector",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/quality_monitor/chart",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/nx_quality_monitor",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/setting_activity_alert",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/setting_calendar_write_only_guide",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/setting_calendar_write_only_detail",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/vocal_enhancement_permission",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/setting_video_trail",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/setting_video_trail_out_meeting",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/network_proxy_setting",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/proxy_verify",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/app_cache_clean",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/personal_meeting_setting/upload_image",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/advanced_video_settings",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/more_in_meeting_settings",
+                    "exported": true,
+                    "platform": [
+                        "OS_ANDROID",
+                        "OS_DESKTOP"
+                    ]
+                },
+                {
+                    "name": "wemeet://page/personal_meeting_setting/voice_enhancement",
+                    "exported": true
+                }
+            ],
+            "activation_events": [
+                "main_scene:personal_meeting.attached",
+                "schedule_webnair_scene:setting.attached",
+                "sync_calendar_scene:setting.attached",
+                {
+                    "event": "launch_scene:home",
+                    "platform": [
+                        "OS_DESKTOP"
+                    ]
+                }
+            ],
+            "activation_app_model_events": [
+                {
+                    "model_type": 1000028,
+                    "event_id": [
+                        0,
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10
+                    ]
+                },
+                {
+                    "model_type": 1000008,
+                    "event_id": [
+                        2
+                    ]
+                }
+            ],
+            "contributes": {
+                "contributes:app.toolbar": [],
+                "contributes:app.schedule_meeting": [],
+                "contributes:settings.setting_tabs": [],
+                "contributes:app.official_app": [],
+                "contributes:float_speaking_wnd.window_top": [],
+                "contributes:app.inmeeting_float": [],
+                "contributes:app.schedule_meeting.safe_setting": [],
+                "contributes:app.home_header_right_container": [
+                    {
+                        "extension": "settings:extension:home_header_setting"
+                    }
+                ],
+                "contributes:inmeeting.quick_operation_menu": [
+                    {
+                        "extension": "extension:settings.fb_in_quick_operation_menu",
+                        "platform": [
+                            "OS_DESKTOP"
+                        ]
+                    },
+                    {
+                        "extension": "extension:settings.virtual_bg_in_quick_operation_menu",
+                        "platform": [
+                            "OS_DESKTOP"
+                        ]
+                    },
+                    {
+                        "extension": "extension:settings.audio_mode_in_quick_operation_menu",
+                        "platform": [
+                            "OS_DESKTOP"
+                        ]
+                    }
+                ]
+            },
+            "description": "会议设置 代理(proxy) 日历(calendar)"
+        },
+        {
+            "name": "sim_interpret",
+            "path": "sim_interpret_module",
+            "version": "3.24.100.295",
+            "dependencies": {
+                "runtime": "3.24.100.295"
+            },
+            "schemes": [
+                {
+                    "name": "wemeet://page/simultaneous/manage",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/simultaneous",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/simultaneous_channel",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/simultaneous/setting",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/simultaneous/brief_introduction",
+                    "exported": true
+                }
+            ],
+            "activation_events": [
+                "in_meeting_scene:inmeeting.init",
+                "schedule_webnair_scene:setting.attached"
+            ],
+            "contributes": {
+                "contributes:app.toolbar": [],
+                "contributes:app.schedule_meeting": [],
+                "contributes:app.meeting_info": [],
+                "contributes:app.inmeeting_float": [],
+                "contributes:app.official_app": [],
+                "contributes:app.schedule_meeting.advanced_setting": []
+            },
+            "description": "同声传译(简称同传)"
+        },
+        {
+            "name": "tm_sdk",
+            "path": "tm_sdk_module",
+            "version": "3.24.100.295",
+            "dependencies": {
+                "runtime": "3.24.100.295"
+            },
+            "schemes": [
+                {
+                    "name": "wemeet://page/tm_sdk",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://warm_up",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/premeeting/quick_join",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/tm_sdk_real_name_verify",
+                    "exported": false
+                }
+            ],
+            "commands": [
+                "SDK_CallFuncGetSDKInMeetingConfig"
+            ],
+            "contributes": {},
+            "exclude_build": [
+                {
+                    "channel": [
+                        "App",
+                        "Overseas",
+                        "Private"
+                    ],
+                    "platform": [
+                        "Android",
+                        "OSX",
+                        "Windows",
+                        "iOS"
+                    ]
+                },
+                {
+                    "channel": [
+                        "App",
+                        "Overseas",
+                        "Private",
+                        "Sdk",
+                        "WeWork"
+                    ],
+                    "platform": [
+                        "Linux"
+                    ]
+                }
+            ],
+            "description": "私有化sdk、SaaS sdk",
+            "activation_events": [
+                "on_startup_finished"
+            ]
+        },
+        {
+            "name": "video",
+            "path": "video_module",
+            "version": "3.24.100.295",
+            "dependencies": {
+                "runtime": "3.24.100.295"
+            },
+            "schemes": [
+                {
+                    "name": "wemeet://page/definition_upgrade_tips",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/video_resolution_menu",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/video_exception_alert",
+                    "exported": true
+                }
+            ],
+            "contributes": {
+                "contributes:app.toolbar": [],
+                "contributes:app.inmeeting_main": [],
+                "contributes:settings.setting_tabs": [],
+                "contributes:app.inmeeting_float": [
+                    {
+                        "extension": "extension:video.inmeeting_switch_resolution",
+                        "platform": [
+                            "OS_MOBILE"
+                        ]
+                    }
+                ],
+                "contributes:app.official_app": [],
+                "contributes:float_wnd_mini_toolbar_container_contributes": [],
+                "contributes:inmeeting.quick_operation_menu": [
+                    {
+                        "extension": "extension:video.video_in_quick_operation_menu",
+                        "platform": [
+                            "OS_DESKTOP"
+                        ]
+                    },
+                    {
+                        "extension": "extension:video.lock_screen_one_in_quick_operation_menu",
+                        "platform": [
+                            "OS_DESKTOP"
+                        ]
+                    },
+                    {
+                        "extension": "extension:video.lock_screen_two_in_quick_operation_menu",
+                        "platform": [
+                            "OS_DESKTOP"
+                        ]
+                    },
+                    {
+                        "extension": "extension:video.to_me_view_in_quick_operation_menu",
+                        "platform": [
+                            "OS_DESKTOP"
+                        ]
+                    },
+                    {
+                        "extension": "extension:video.to_other_view_in_quick_operation_menu",
+                        "platform": [
+                            "OS_DESKTOP"
+                        ]
+                    },
+                    {
+                        "extension": "extension:video.meeting_lock_in_quick_operation_menu",
+                        "platform": [
+                            "OS_DESKTOP"
+                        ]
+                    },
+                    {
+                        "extension": "extension:video.hide_video_user_in_quick_operation_menu",
+                        "platform": [
+                            "OS_DESKTOP"
+                        ]
+                    },
+                    {
+                        "extension": "extension:video.hide_self_in_quick_operation_menu",
+                        "platform": [
+                            "OS_DESKTOP"
+                        ]
+                    }
+                ]
+            },
+            "activation_events": [
+                "in_meeting_scene:inmeeting.init",
+                {
+                    "event": "setting_scene:mobile_setting.attached",
+                    "platform": [
+                        "OS_MOBILE"
+                    ]
+                }
+            ],
+            "description": "视频"
+        },
+        {
+            "name": "web_share",
+            "path": "web_share_module",
+            "version": "3.24.100.295",
+            "dependencies": {
+                "runtime": "3.24.100.295"
+            },
+            "commands": [],
+            "schemes": [
+                {
+                    "name": "wemeet://page/share_web_doc_authorize",
+                    "exported": true
+                },
+                {
+                    "name": "wemeet://page/web_share_meeting",
+                    "exported": true
+                }
+            ],
+            "contributes": {
+                "contributes:screen_share.select_doc": [],
+                "contributes:app.inmeeting_main": [],
+                "contributes:video.float_entrance": []
+            },
+            "exclude_build": [
+                {
+                    "channel": [
+                        "Overseas"
+                    ]
+                }
+            ],
+            "description": "Share document in meeting.",
+            "activation_app_model_events": [
+                {
+                    "model_type": 501,
+                    "event_id": [
+                        10
+                    ]
+                },
+                {
+                    "model_type": 514,
+                    "event_id": [
+                        1,
+                        18
+                    ]
+                }
+            ],
+            "activation_events": [
+                "in_meeting_scene:inmeeting.init"
+            ]
+        }
+    ],
+    "path": "",
+    "schemes": [],
+    "contributes": {},
+    "description": "iOS组件化，多个静态库融合而成的动态库",
+    "version": "3.24.100.295"
+}

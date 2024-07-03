@@ -1,0 +1,231 @@
+{
+  "tip_mobile": {
+    "icon_visible" : false,
+    "icon": "https://meeting-75420.picgzc.qpic.cn/launch_material/1702967051.png",
+    "content": {
+      "text": "开通会员使用所有虚拟背景",
+      "color": "FFFFFF",
+      "size": 14
+    },
+    "background": {
+      "image": "https://cdn.meeting.tencent.com/pro/ZjI5MTU2NzYtN2NlYS00ODFkLTlmMDAtOWEwMzZmZWYyNWQ0.png",
+      "border": {
+        "radius": 12
+      },
+      "color": "5979FF"
+    },
+    "close_button": {
+      "visible": 0,
+      "event": {
+        "name": "e#background_strp#strip_cancel#click",
+        "params": {}
+      }
+    },
+    "button": {
+      "text": "立即开通",
+      "color": "5979FF",
+      "size": 12,
+      "bold": true,
+      "background": {
+        "border": {
+          "radius": 4
+        },
+        "color": "FFFFFF"
+      },
+      "link": {
+        "Android": "https://meeting.tencent.com/v2/buy/vipcenter?mid=mandroid.g.xnbj.vipyd",
+        "iOS": "https://meeting.tencent.com/v2/buy/vipcenter?mid=mios.g.xnbj.vipyd",
+        "iPad": "https://meeting.tencent.com/v2/buy/vipcenter?mid=mpad.g.xnbj.vipyd"
+      },
+      "event": {
+        "name": "e#background_strp#strip_upgrade#click",
+        "params": {}
+      }
+    },
+    "event": {
+      "name": "e#background_strp#all#exposure",
+      "params": {}
+    }
+  },
+  "tip_desktop": {
+    "icon": "https://meeting-75420.picgzc.qpic.cn/launch_material/1660533119.png",
+    "content": {
+      "text": "开通会员，即可上传自定义背景以及使用所有会员背景。",
+      "color": "FFFFFF",
+      "size": 16
+    },
+    "background": {
+      "image": "https://meeting-75420.picgzc.qpic.cn/launch_material/1660533305.png",
+      "border": {
+        "radius": 12
+      },
+      "gradient": {
+        "angle": 0,
+        "list": [
+          "4D94FF",
+          "6D86FF",
+          "5F65FF"
+        ]
+      }
+    },
+    "close_button": {
+      "visible": 0,
+      "event": {
+        "name": "e#background_strp#strip_cancel#click",
+        "params": {}
+      }
+    },
+    "button": {
+      "text": "立即开通",
+      "color": "FFFFFF",
+      "size": 14,
+      "background": {
+        "image": "https://meeting-75420.picgzc.qpic.cn/launch_material/1660533197.png",
+        "border": {
+          "size": 0.5,
+          "radius": 4,
+          "color": "FFFFFF",
+          "type": 0
+        },
+        "gradient": {
+          "angle": 0,
+          "list": [
+            "FFFFFF",
+            "CCFFFFFF"
+          ]
+        }
+      },
+      "link": {
+        "Mac": "https://meeting.tencent.com/v2/buy/vip?mid=mac.g.xnbj.vipyd",
+        "Windows": "https://meeting.tencent.com/v2/buy/vip?mid=win.g.xnbj.vipyd"
+      },
+      "event": {
+        "name": "e#background_strp#strip_upgrade#click",
+        "params": {}
+      }
+    },
+    "event": {
+      "name": "e#background_strp#all#exposure",
+      "params": {}
+    }
+  },
+  "dialog_mobile": {
+    "title": {
+      "text": "当前设置的虚拟背景为会员专属",
+      "color": "000000",
+      "size": 20
+    },
+    "content": {
+      "text": "开通会员，即可畅快使用所有虚拟背景。若暂不开通，将自动为您取消使用该虚拟背景。",
+      "color": "4E5461",
+      "size": 16
+    },
+    "top_image": "https://meeting-75420.picgzc.qpic.cn/launch_material/1660716408.png",
+    "background": {
+      "color": "FFFFFF",
+      "border": {
+        "radius": 12,
+        "type": 1
+      }
+    },
+    "close_button": {
+      "visible": 1,
+      "event": {
+        "name": "e#background_widget#cancel#click",
+        "params": {}
+      }
+    },
+    "button": {
+      "text": "立即开通",
+      "color": "FFFFFF",
+      "size": 16,
+      "background": {
+        "border": {
+          "radius": 4
+        },
+        "gradient": {
+          "angle": 0,
+          "list": [
+            "4D94FF",
+            "6D86FF",
+            "5F65FF"
+          ]
+        }
+      },
+      "link": {
+        "Android": "https://meeting.tencent.com/v2/buy/vipcenter?mid=mandroid.g.xnbj.viptc",
+        "iOS": "https://meeting.tencent.com/v2/buy/vipcenter?mid=mios.g.xnbj.viptc",
+        "iPad": "https://meeting.tencent.com/v2/buy/vipcenter?mid=mpad.g.xnbj.viptc"
+      },
+      "event": {
+        "name": "e#background_widget#widget_upgrade#click",
+        "params": {}
+      }
+    },
+    "blings": [
+      {
+        "icon": "https://meeting-75420.pictestsz.qpic.cn/launch_material/1669191565.png"
+      }
+    ],
+    "event": {
+      "name": "e#background_widget#all#exposure",
+      "params": {}
+    }
+  },
+  "dialog_desktop": {
+    "title": {
+      "text": "当前设置的虚拟背景为会员专属",
+      "color": "000000",
+      "size": 16
+    },
+    "content": {
+      "text": "开通会员，即可畅快使用所有虚拟背景。若暂不开通，将自动为您取消使用该虚拟背景。",
+      "color": "7B818F",
+      "size": 12
+    },
+    "button_list": [
+      {
+        "type": 0,
+        "text": "暂不开通",
+        "color": "000000",
+        "size": 14,
+        "background": {
+          "color": "FFFFFF",
+          "border": {
+            "size": 1,
+            "radius": 4,
+            "color": "D3D6DB"
+          }
+        },
+        "event": {
+          "name": "e#background_widget#cancel#click",
+          "params": {}
+        }
+      },
+      {
+        "type": 1,
+        "text": "立即开通",
+        "color": "FFFFFF",
+        "size": 14,
+        "background": {
+          "color": "006FFF",
+          "border": {
+            "radius": 4
+          }
+        },
+        "link": {
+          "Mac": "https://meeting.tencent.com/v2/buy/vip?mid=mac.g.xnbj.viptc",
+          "Windows": "https://meeting.tencent.com/v2/buy/vip?mid=win.g.xnbj.viptc"
+        },
+        "event": {
+          "name": "e#background_widget#widget_upgrade#click",
+          "params": {}
+        }
+      }
+    ],
+    "event": {
+      "name": "e#background_widget#all#exposure",
+      "params": {}
+    }
+  }
+}

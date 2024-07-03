@@ -1,0 +1,190 @@
+{
+  "tip": {
+    "icon_visible" : false,
+    "icon": "https://meeting-75420.picgzc.qpic.cn/launch_material/1702967051.png",
+    "content": {
+      "text": "开通会员即可使用该头饰。",
+      "color": "FFFFFF",
+      "size": 14
+    },
+    "background": {
+      "image": "https://cdn.meeting.tencent.com/pro/ZjI5MTU2NzYtN2NlYS00ODFkLTlmMDAtOWEwMzZmZWYyNWQ0.png",
+      "border": {
+        "radius": 12
+      },
+      "color": "5979FF"
+    },
+    "button": {
+      "text": "立即开通",
+      "color": "5979FF",
+      "size": 12,
+      "bold": true,
+      "background": {
+        "border": {
+          "radius": 4
+        },
+        "color": "FFFFFF"
+      },
+      "link": {
+        "Android": "https://meeting.tencent.com/v2/buy/vipcenter?mid=mandroid.g.ts.tips",
+        "iOS": "https://meeting.tencent.com/v2/buy/vipcenter?mid=mios.g.ts.tips",
+        "iPad": "https://meeting.tencent.com/v2/buy/vipcenter?mid=mpad.g.ts.tips",
+        "Mac": "https://meeting.tencent.com/buy.html?open-vip=1&mid=mac.g.ts.tips",
+        "Windows": "https://meeting.tencent.com/buy.html?open-vip=1&mid=win.g.ts.tips"
+      },
+      "event": {
+        "name": "e#headwear_pay_guide_tips#upgrade#click",
+        "params": {}
+      }
+    },
+    "event": {
+      "name": "e#headwear_pay_guide_tips#all#exposure",
+      "params": {}
+    }
+  },
+  "dialog_mobile": {
+    "title": {
+      "text": "当前选择的是会员专属头饰",
+      "color": "000000",
+      "size": 20
+    },
+    "content": {
+      "text": "开通会员，即可使用所有头饰。若暂不开通，将自动为您取消使用。",
+      "color": "4E5461",
+      "size": 16
+    },
+    "top_image": "https://meeting-75420.picgzc.qpic.cn/launch_material/1660716408.png",
+    "background": {
+      "color": "FFFFFF",
+      "border": {
+        "radius": 12,
+        "type": 1
+      }
+    },
+    "close_button": {
+      "visible": 1,
+      "event": {
+        "name": "e#headwear_pay_guide_popup#cancel#click",
+        "params": {}
+      }
+    },
+    "button": {
+      "text": "立即开通",
+      "color": "FFFFFF",
+      "size": 16,
+      "background": {
+        "border": {
+          "radius": 4
+        },
+        "gradient": {
+          "angle": 0,
+          "list": [
+            "4D94FF",
+            "6D86FF",
+            "5F65FF"
+          ]
+        }
+      },
+      "link": {
+        "Android": "https://meeting.tencent.com/v2/buy/vipcenter?mid=mandroid.g.ts.tstc",
+        "iOS": "https://meeting.tencent.com/v2/buy/vipcenter?mid=mios.g.ts.tstc",
+        "iPad": "https://meeting.tencent.com/v2/buy/vipcenter?mid=mpad.g.ts.tstc",
+        "Mac": "https://meeting.tencent.com/buy.html?open-vip=1&mid=mac.g.ts.tstc",
+        "Windows": "https://meeting.tencent.com/buy.html?open-vip=1&mid=win.g.ts.tstc"
+      },
+      "event": {
+        "name": "e#headwear_pay_guide_popup#upgrade#click",
+        "params": {}
+      }
+    },
+    "blings": [
+      {
+        "icon": "https://meeting-75420.picgzc.qpic.cn/launch_material/1660533163.png",
+        "text": "更有趣设计",
+        "color": "4E5461",
+        "size": 14,
+        "background": {
+          "color": "0D006FFF",
+          "border": {
+            "radius": 20
+          }
+        }
+      },
+      {
+        "icon": "https://meeting-75420.picgzc.qpic.cn/launch_material/1660533147.png",
+        "text": "更丰富素材",
+        "color": "4E5461",
+        "size": 14,
+        "background": {
+          "color": "0D006FFF",
+          "border": {
+            "radius": 20
+          }
+        }
+      }
+    ],
+    "event": {
+      "name": "e#headwear_pay_guide_popup#all#exposure",
+      "params": {}
+    }
+  },
+  "dialog_desktop": {
+    "title": {
+      "text": "当前选择的是会员专属头饰",
+      "color": "000000",
+      "size": 16
+    },
+    "content": {
+      "text": "开通会员，即可使用所有头饰。若暂不开通，将自动为您取消使用。",
+      "color": "7B818F",
+      "size": 12
+    },
+    "button_list": [
+      {
+        "type": 0,
+        "text": "暂不开通",
+        "color": "000000",
+        "size": 14,
+        "background": {
+          "color": "FFFFFF",
+          "border": {
+            "size": 1,
+            "radius": 4,
+            "color": "D3D6DB"
+          }
+        },
+        "event": {
+          "name": "e#headwear_pay_guide_popup#cancel#click",
+          "params": {}
+        }
+      },
+      {
+        "type": 1,
+        "text": "立即开通",
+        "color": "FFFFFF",
+        "size": 14,
+        "background": {
+          "color": "006FFF",
+          "border": {
+            "radius": 4
+          }
+        },
+        "link": {
+          "Android": "https://meeting.tencent.com/v2/buy/vipcenter?mid=mandroid.g.ts.tstc",
+          "iOS": "https://meeting.tencent.com/v2/buy/vipcenter?mid=mios.g.ts.tstc",
+          "iPad": "https://meeting.tencent.com/v2/buy/vipcenter?mid=mpad.g.ts.tstc",
+          "Mac": "https://meeting.tencent.com/buy.html?open-vip=1&mid=mac.g.ts.tstc",
+          "Windows": "https://meeting.tencent.com/buy.html?open-vip=1&mid=win.g.ts.tstc"
+        },
+        "event": {
+          "name": "e#headwear_pay_guide_popup#upgrade#click",
+          "params": {}
+        }
+      }
+    ],
+    "event": {
+      "name": "e#headwear_pay_guide_popup#all#exposure",
+      "params": {}
+    }
+  }
+}

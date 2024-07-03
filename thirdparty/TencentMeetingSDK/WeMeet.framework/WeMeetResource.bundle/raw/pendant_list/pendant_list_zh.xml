@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stream>
+  <iq type="result">
+    <pendant_res language="zh-CN">
+      <pendant_res_list>
+          <resource id="blackglasses" title="黑框眼镜" icon="glass.png" resource_url="https://updatecdnv6.meeting.qq.com/resource-update/9aea7dc62261553cacd05b2b2fd4ee82/accessory-1glass02.zip" resource_md5="9aea7dc62261553cacd05b2b2fd4ee82"/>
+          <resource id="sunglasses" title="墨镜" icon="glass02.png" resource_url="https://updatecdnv6.meeting.qq.com/resource-update/cc48131e43bc3e249e6db3eaa7f08182/accessory-1glass.zip" resource_md5="cc48131e43bc3e249e6db3eaa7f08182"/>
+          <resource id="mosaicglasses" title="像素眼镜" icon="glass-pixel.png" resource_url="https://updatecdnv6.meeting.qq.com/resource-update/c860f7cde88a3baa18fa23b5b563618b/accessory-0glass-pixel.zip" resource_md5="c860f7cde88a3baa18fa23b5b563618b"/>
+          <resource id="spaceglasses" title="太空眼镜" icon="glass-blue.png" resource_url="https://updatecdnv6.meeting.qq.com/resource-update/995dfd6b4966462794def35498e317c4/accessory-0glass-blue.zip" resource_md5="995dfd6b4966462794def35498e317c4"/>
+          <resource id="rabbitear" title="兔耳朵" icon="rabbit.png" resource_url="https://updatecdnv6.meeting.qq.com/resource-update/6b3d045cd680c626f80dd9bab61acc1b/rabbit.zip" resource_md5="6b3d045cd680c626f80dd9bab61acc1b"/>
+          <resource id="bearheadgear" title="小熊头套" icon="bear.png" resource_url="https://updatecdnv6.meeting.qq.com/resource-update/6c015e9d50636bd0e3a85c7cb5c2abd6/bear.zip" resource_md5="6c015e9d50636bd0e3a85c7cb5c2abd6"/>
+          <resource id="graduation_cap" title="毕业帽" icon="xueshimao.png" resource_url="https://updatecdnv6.meeting.qq.com/resource-update/377606b3ad59b0a56cc38b219a380ca4/accessory-0xueshimao.zip" resource_md5="377606b3ad59b0a56cc38b219a380ca4"/>
+          <resource id="mask" title="口罩" icon="mask.png" resource_url="https://updatecdnv6.meeting.qq.com/resource-update/c3f48ce8e238936ddf7539977e1bed40/mask.zip" resource_md5="c3f48ce8e238936ddf7539977e1bed40"/>
+          <resource id="chibi_hairpin" title="Q版发卡" icon="ball.png" resource_url="https://updatecdnv6.meeting.qq.com/resource-update/f309330b74bafe83229b21375f89aa20/ball.zip" resource_md5="f309330b74bafe83229b21375f89aa20"/>
+      </pendant_res_list>
+    </pendant_res>
+  </iq>
+</stream>

@@ -1,0 +1,365 @@
+{
+    "layer_cnt": 18,
+    "blob_cnt": 18,
+    "layer_info": [
+        {
+            "layer_type": "Input",
+            "layer_name": "Input_0",
+            "input_blob_cnt": 0,
+            "output_blob_cnt": 1,
+            "input_blobs": [],
+            "output_blobs": [
+                "Input_0_0"
+            ],
+            "layer_param": {},
+            "weight_info": []
+        },
+        {
+            "layer_type": "ConvolutionIrregularKernel",
+            "layer_name": "ConvolutionIrregularKernel_0",
+            "input_blob_cnt": 1,
+            "output_blob_cnt": 1,
+            "input_blobs": [
+                "Input_0_0"
+            ],
+            "output_blobs": [
+                "ConvolutionIrregularKernel_0_0"
+            ],
+            "layer_param": {
+                "output_channel": 4,
+                "kernel_h": 1,
+                "kernel_w": 5,
+                "stride_h": 1,
+                "stride_w": 2,
+                "pad_y": 0,
+                "pad_x": 0,
+                "has_bias": 1,
+                "group": 1,
+                "dilate": 1,
+                "weight_data_size": 40
+            },
+            "weight_info": [
+                0,
+                40,
+                44
+            ]
+        },
+        {
+            "layer_type": "GroupNorm",
+            "layer_name": "GroupNorm_0",
+            "input_blob_cnt": 1,
+            "output_blob_cnt": 1,
+            "input_blobs": [
+                "ConvolutionIrregularKernel_0_0"
+            ],
+            "output_blobs": [
+                "GroupNorm_0_0"
+            ],
+            "layer_param": {
+                "output_channel_cnt": 4,
+                "group": 1,
+                "eps": 9.999999747378752e-06
+            },
+            "weight_info": []
+        },
+        {
+            "layer_type": "ReLU",
+            "layer_name": "ReLU_0",
+            "input_blob_cnt": 1,
+            "output_blob_cnt": 1,
+            "input_blobs": [
+                "GroupNorm_0_0"
+            ],
+            "output_blobs": [
+                "ReLU_0_0"
+            ],
+            "layer_param": {
+                "slope": 0.009999999776482582
+            },
+            "weight_info": []
+        },
+        {
+            "layer_type": "ConvolutionIrregularKernel",
+            "layer_name": "ConvolutionIrregularKernel_1",
+            "input_blob_cnt": 1,
+            "output_blob_cnt": 1,
+            "input_blobs": [
+                "ReLU_0_0"
+            ],
+            "output_blobs": [
+                "ConvolutionIrregularKernel_1_0"
+            ],
+            "layer_param": {
+                "output_channel": 6,
+                "kernel_h": 1,
+                "kernel_w": 5,
+                "stride_h": 1,
+                "stride_w": 2,
+                "pad_y": 0,
+                "pad_x": 0,
+                "has_bias": 1,
+                "group": 1,
+                "dilate": 1,
+                "weight_data_size": 120
+            },
+            "weight_info": [
+                52,
+                120,
+                178
+            ]
+        },
+        {
+            "layer_type": "GroupNorm",
+            "layer_name": "GroupNorm_1",
+            "input_blob_cnt": 1,
+            "output_blob_cnt": 1,
+            "input_blobs": [
+                "ConvolutionIrregularKernel_1_0"
+            ],
+            "output_blobs": [
+                "GroupNorm_1_0"
+            ],
+            "layer_param": {
+                "output_channel_cnt": 6,
+                "group": 1,
+                "eps": 9.999999747378752e-06
+            },
+            "weight_info": []
+        },
+        {
+            "layer_type": "ReLU",
+            "layer_name": "ReLU_1",
+            "input_blob_cnt": 1,
+            "output_blob_cnt": 1,
+            "input_blobs": [
+                "GroupNorm_1_0"
+            ],
+            "output_blobs": [
+                "ReLU_1_0"
+            ],
+            "layer_param": {
+                "slope": 0.009999999776482582
+            },
+            "weight_info": []
+        },
+        {
+            "layer_type": "ConvolutionIrregularKernel",
+            "layer_name": "ConvolutionIrregularKernel_2",
+            "input_blob_cnt": 1,
+            "output_blob_cnt": 1,
+            "input_blobs": [
+                "ReLU_1_0"
+            ],
+            "output_blobs": [
+                "ConvolutionIrregularKernel_2_0"
+            ],
+            "layer_param": {
+                "output_channel": 8,
+                "kernel_h": 1,
+                "kernel_w": 5,
+                "stride_h": 1,
+                "stride_w": 2,
+                "pad_y": 0,
+                "pad_x": 0,
+                "has_bias": 1,
+                "group": 1,
+                "dilate": 1,
+                "weight_data_size": 240
+            },
+            "weight_info": [
+                190,
+                240,
+                438
+            ]
+        },
+        {
+            "layer_type": "GroupNorm",
+            "layer_name": "GroupNorm_2",
+            "input_blob_cnt": 1,
+            "output_blob_cnt": 1,
+            "input_blobs": [
+                "ConvolutionIrregularKernel_2_0"
+            ],
+            "output_blobs": [
+                "GroupNorm_2_0"
+            ],
+            "layer_param": {
+                "output_channel_cnt": 8,
+                "group": 1,
+                "eps": 9.999999747378752e-06
+            },
+            "weight_info": []
+        },
+        {
+            "layer_type": "ReLU",
+            "layer_name": "ReLU_2",
+            "input_blob_cnt": 1,
+            "output_blob_cnt": 1,
+            "input_blobs": [
+                "GroupNorm_2_0"
+            ],
+            "output_blobs": [
+                "ReLU_2_0"
+            ],
+            "layer_param": {
+                "slope": 0.009999999776482582
+            },
+            "weight_info": []
+        },
+        {
+            "layer_type": "Reshape",
+            "layer_name": "Reshape_0",
+            "input_blob_cnt": 1,
+            "output_blob_cnt": 1,
+            "input_blobs": [
+                "ReLU_2_0"
+            ],
+            "output_blobs": [
+                "Reshape_0_0"
+            ],
+            "layer_param": {
+                "n": 1,
+                "c": 1,
+                "h": 1,
+                "w": 232
+            },
+            "weight_info": []
+        },
+       
+        {
+            "layer_type": "LSTM",
+            "layer_name": "LSTM_0",
+            "input_blob_cnt": 1,
+            "output_blob_cnt": 1,
+            "input_blobs": [
+                "Reshape_0_0"
+            ],
+            "output_blobs": [
+                "LSTM_0_0"
+            ],
+            "layer_param": {
+                "num_output": 56,
+                "num_input": 232,
+                "direction": 1
+            },
+            "weight_info": [
+                454,
+                51968,
+                52422,
+                12544,
+                65414
+            ]
+        },
+        {
+            "layer_type": "LSTM",
+            "layer_name": "LSTM_1",
+            "input_blob_cnt": 1,
+            "output_blob_cnt": 1,
+            "input_blobs": [
+                "LSTM_0_0"
+            ],
+            "output_blobs": [
+                "LSTM_1_0"
+            ],
+            "layer_param": {
+                "num_output": 56,
+                "num_input": 56,
+                "direction": 1
+            },
+            "weight_info": [
+                65414,
+                12544,
+                77958,
+                12544,
+                90950
+            ]
+        },
+        {
+            "layer_type": "Concat",
+            "layer_name": "Concat_0",
+            "input_blob_cnt": 2,
+            "output_blob_cnt": 1,
+            "input_blobs": [
+                "LSTM_1_0",
+                "LSTM_0_0"
+            ],
+            "output_blobs": [
+                "Concat_0_0"
+            ],
+            "layer_param": {
+                "axis": 3
+            },
+            "weight_info": []
+        },
+        {
+            "layer_type": "Linear",
+            "layer_name": "Linear_0",
+            "input_blob_cnt": 1,
+            "output_blob_cnt": 1,
+            "input_blobs": [
+                "Concat_0_0"
+            ],
+            "output_blobs": [
+                "Linear_0_0"
+            ],
+            "layer_param": {
+                "num_input": 112,
+                "num_output": 96
+            },
+            "weight_info": [
+                90950,
+                10752,
+                101798
+            ]
+        },
+        {
+            "layer_type": "Tanh",
+            "layer_name": "Tanh_0",
+            "input_blob_cnt": 1,
+            "output_blob_cnt": 1,
+            "input_blobs": [
+                "Linear_0_0"
+            ],
+            "output_blobs": [
+                "Tanh_0_0"
+            ],
+            "layer_param": {},
+            "weight_info": []
+        },
+        {
+            "layer_type": "Linear",
+            "layer_name": "Linear_1",
+            "input_blob_cnt": 1,
+            "output_blob_cnt": 1,
+            "input_blobs": [
+                "Tanh_0_0"
+            ],
+            "output_blobs": [
+                "Linear_1_0"
+            ],
+            "layer_param": {
+                "num_input": 96,
+                "num_output": 257
+            },
+            "weight_info": [
+                101798,
+                24672,
+                126727
+            ]
+        },
+        {
+            "layer_type": "Sigmoid",
+            "layer_name": "Sigmoid_0",
+            "input_blob_cnt": 1,
+            "output_blob_cnt": 1,
+            "input_blobs": [
+                "Linear_1_0"
+            ],
+            "output_blobs": [
+                "Sigmoid_0_0"
+            ],
+            "layer_param": {},
+            "weight_info": []
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+framework module TencentMeetingSDK {
+  umbrella header "TencentMeetingSDK.h"
+  export *
+
+  module * { export * }
+}
+
+module TencentMeetingSDK.Swift {
+  header "TencentMeetingSDK-Swift.h"
+  requires objc
+}

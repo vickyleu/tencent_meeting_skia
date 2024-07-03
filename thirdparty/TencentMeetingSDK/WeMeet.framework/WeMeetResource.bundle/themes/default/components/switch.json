@@ -1,0 +1,53 @@
+{
+  "switch_image": {
+    "bg-image-on-normal": "switch-9",
+    "bg-image-on-disable": "switch-7",
+    "bg-image-off-normal": "switch-8",
+    "bg-image-off-disable": "switch-6",
+    "bg-image-loading": "switch-5",
+    "desc": "Mac开关，使用背景图"
+  },
+  "switch_image_pc":{
+    "bg-image-on-normal":"switch-6-4",
+    "bg-image-off-normal":"switch-6-3",
+    "desc":"Windows开关，使用背景图"
+  },
+  "switch_color":{
+      "bg-color-on-normal":"color-notice-2-3",
+      "bg-color-on-disable":"color-notice-2-5",
+      "bg-color-on-loading":"color-notice-2-5",
+      "bg-color-off-normal":"color-fill-4-3",
+      "bg-color-off-loading":"color-fill-4-3",
+      "border-color-off-disable":"color-fill-4-3",
+      "slider-bg-color":"color-white",
+      "slider-bg-color-off-disable":"color-fill-4-3",
+      "loading-tint-color":"color-notice-2-3",
+      "desc":"使用颜色填充的开关"
+  },
+  "switch_mobile1":{
+      "bg-image-on-normal":"switch-3-3",
+      "bg-image-on-disable":"switch-3-1",
+      "bg-image-on-loading":"switch-3-2",
+      "bg-image-off-normal":"switch-2-3",
+      "bg-image-off-disable":"switch-2-1",
+      "bg-image-off-loading":"switch-2-2",
+      "loading-tint-image":"switch-10",
+      "text-color-on":"color-text-4",
+      "text-color-off-normal":"color-text-2",
+      "text-color-off-disable":"color-text-3",
+      "font-weight":"font-weight-2",
+      "font-linehight":"font-linehight-2",
+      "font-size":"font-size-1-1",
+      "desc":"移动端开关，使用背景图"
+  },
+  "switch_mobile2":{
+      "bg-image-on-normal":"switch-5-3",
+      "bg-image-on-disable":"switch-5-1",
+      "bg-image-on-loading":"switch-5-2",
+      "bg-image-off-normal":"switch-4-3",
+      "bg-image-off-disable":"switch-4-1",
+      "bg-image-off-loading":"switch-4-2",
+      "loading-tint-image":"switch-10",
+      "desc":"移动端开关，使用带勾和叉的背景图"
+  }
+}

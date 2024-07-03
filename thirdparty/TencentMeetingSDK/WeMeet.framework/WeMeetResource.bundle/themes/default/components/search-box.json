@@ -1,0 +1,15 @@
+{
+    "search_box":{
+        "bg-color":"color-fill-4-3",
+        "text-color-normal":"color-text-1",
+        "text-color-default":"color-text-3",
+        "search-text-color-normal":"color-text-6-1",
+        "search-text-color-press":"color-text-6-3",
+        "font-weight":"font-weight-1",
+        "font-linehight":"font-linehight-2",
+        "font-size":"font-size-1-4",
+        "icon-empty-bg-image":"box-3-1",
+        "icon-search":"icon-search",
+        "radius":"radius-1"
+    }
+}

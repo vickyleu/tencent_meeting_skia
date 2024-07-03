@@ -1,0 +1,7 @@
+{
+    "version":"1.0",
+    "current":"default",
+    "themes":{
+        "default":{"name":"默认", "file":"default"}
+    }
+}

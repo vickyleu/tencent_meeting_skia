@@ -1,0 +1,231 @@
+{
+  "tip_mobile": {
+    "icon": "https://meeting-75420.picgzc.qpic.cn/launch_material/1702967051.png",
+    "icon_visible" : false,
+    "content": {
+      "text": "开通会员即可使用所有边框",
+      "color": "FFFFFF",
+      "size": 14
+    },
+    "background": {
+      "image": "https://cdn.meeting.tencent.com/pro/ZjI5MTU2NzYtN2NlYS00ODFkLTlmMDAtOWEwMzZmZWYyNWQ0.png",
+      "border": {
+        "radius": 12
+      },
+      "color": "5979FF"
+    },
+    "close_button": {
+      "visible": 0,
+      "event": {
+        "name": "e#frame_strp#strip_cancel#click",
+        "params": {}
+      }
+    },
+    "button": {
+      "text": "立即开通",
+      "color": "5979FF",
+      "size": 12,
+      "bold": true,
+      "background": {
+        "border": {
+          "radius": 4
+        },
+        "color": "FFFFFF"
+      },
+      "link": {
+        "Android": "https://meeting.tencent.com/v2/buy/vipcenter?mid=mandroid.g.spbk.vipyd",
+        "iOS": "https://meeting.tencent.com/v2/buy/vipcenter?mid=mios.g.spbk.vipyd",
+        "iPad": "https://meeting.tencent.com/v2/buy/vipcenter?mid=mpad.g.spbk.vipyd"
+      },
+      "event": {
+        "name": "e#frame_strp#strip_upgrade#click",
+        "params": {}
+      }
+    },
+    "event": {
+      "name": "e#frame_strp#all#exposure",
+      "params": {}
+    }
+  },
+  "tip_desktop": {
+    "icon": "https://meeting-75420.picgzc.qpic.cn/launch_material/1660533119.png",
+    "content": {
+      "text": "开通会员，即可使用所有边框。",
+      "color": "FFFFFF",
+      "size": 16
+    },
+    "background": {
+      "image": "https://meeting-75420.picgzc.qpic.cn/launch_material/1660533305.png",
+      "border": {
+        "radius": 12
+      },
+      "gradient": {
+        "angle": 0,
+        "list": [
+          "4D94FF",
+          "6D86FF",
+          "5F65FF"
+        ]
+      }
+    },
+    "close_button": {
+      "visible": 0,
+      "event": {
+        "name": "e#frame_strp#strip_cancel#click",
+        "params": {}
+      }
+    },
+    "button": {
+      "text": "立即开通",
+      "color": "FFFFFF",
+      "size": 14,
+      "background": {
+        "image": "https://meeting-75420.picgzc.qpic.cn/launch_material/1660533197.png",
+        "border": {
+          "size": 0.5,
+          "radius": 4,
+          "color": "FFFFFF",
+          "type": 0
+        },
+        "gradient": {
+          "angle": 0,
+          "list": [
+            "FFFFFF",
+            "CCFFFFFF"
+          ]
+        }
+      },
+      "link": {
+        "Mac": "https://meeting.tencent.com/v2/buy/vip?mid=mac.g.spbk.vipyd",
+        "Windows": "https://meeting.tencent.com/v2/buy/vip?mid=win.g.spbk.vipyd"
+      },
+      "event": {
+        "name": "e#frame_strp#strip_upgrade#click",
+        "params": {}
+      }
+    },
+    "event": {
+      "name": "e#frame_strp#all#exposure",
+      "params": {}
+    }
+  },
+  "dialog_mobile": {
+    "title": {
+      "text": "想使用更丰富的边框吗？",
+      "color": "000000",
+      "size": 20
+    },
+    "content": {
+      "text": "开通会员，即可使用所有边框。若暂不开通，将自动为您取消使用。",
+      "color": "4E5461",
+      "size": 16
+    },
+    "top_image": "https://meeting-75420.picgzc.qpic.cn/launch_material/1660716408.png",
+    "background": {
+      "color": "FFFFFF",
+      "border": {
+        "radius": 12,
+        "type": 1
+      }
+    },
+    "close_button": {
+      "visible": 1,
+      "event": {
+        "name": "e#frame_widget#cancel#click",
+        "params": {}
+      }
+    },
+    "button": {
+      "text": "立即开通",
+      "color": "FFFFFF",
+      "size": 16,
+      "background": {
+        "border": {
+          "radius": 4
+        },
+        "gradient": {
+          "angle": 0,
+          "list": [
+            "4D94FF",
+            "6D86FF",
+            "5F65FF"
+          ]
+        }
+      },
+      "link": {
+        "Android": "https://meeting.tencent.com/v2/buy/vipcenter?mid=mandroid.g.spbk.viptc",
+        "iOS": "https://meeting.tencent.com/v2/buy/vipcenter?mid=mios.g.spbk.viptc",
+        "iPad": "https://meeting.tencent.com/v2/buy/vipcenter?mid=mpad.g.spbk.viptc"
+      },
+      "event": {
+        "name": "e#frame_widget#widget_upgrade#click",
+        "params": {}
+      }
+    },
+    "blings": [
+      {
+        "icon": "https://meeting-75420.pictestsz.qpic.cn/launch_material/1671095243.png"
+      }
+    ],
+    "event": {
+      "name": "e#frame_widget#all#exposure",
+      "params": {}
+    }
+  },
+  "dialog_desktop": {
+    "title": {
+      "text": "想使用更丰富的边框吗？",
+      "color": "000000",
+      "size": 16
+    },
+    "content": {
+      "text": "开通会员，即可使用所有边框。若暂不开通，将自动为您取消使用。",
+      "color": "7B818F",
+      "size": 12
+    },
+    "button_list": [
+      {
+        "type": 0,
+        "text": "暂不开通",
+        "color": "000000",
+        "size": 14,
+        "background": {
+          "color": "FFFFFF",
+          "border": {
+            "size": 1,
+            "radius": 4,
+            "color": "D3D6DB"
+          }
+        },
+        "event": {
+          "name": "e#frame_widget#cancel#click",
+          "params": {}
+        }
+      },
+      {
+        "type": 1,
+        "text": "立即开通",
+        "color": "FFFFFF",
+        "size": 14,
+        "background": {
+          "color": "006FFF",
+          "border": {
+            "radius": 4
+          }
+        },
+        "link": {
+          "Mac": "https://meeting.tencent.com/v2/buy/vip?mid=mac.g.spbk.viptc",
+          "Windows": "https://meeting.tencent.com/v2/buy/vip?mid=win.g.spbk.viptc"
+        },
+        "event": {
+          "name": "e#frame_widget#widget_upgrade#click",
+          "params": {}
+        }
+      }
+    ],
+    "event": {
+      "name": "e#frame_widget#all#exposure",
+      "params": {}
+    }
+  }
+}

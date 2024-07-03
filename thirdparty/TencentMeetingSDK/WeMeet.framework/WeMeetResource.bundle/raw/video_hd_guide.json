@@ -1,0 +1,18 @@
+{
+  "desktop_pay_info": {
+    "title": "开通会员，即可使用1080P高清摄像头画质",
+    "subtitle": "请确保摄像头支持1080P，实际摄像头画质和观看他人的视频画质受设备性能和网络状态影响",
+    "btn_cancel": "暂不开通",
+    "btn_ok": "立即开通",
+    "pay_url": "https://meeting.tencent.com/buy.html?open-vip=1",
+    "mac_pay_url": "https://meeting.tencent.com/buy.html?open-vip=1&mid=mac.p.sphz.hzbq",
+    "win_pay_url": "https://meeting.tencent.com/buy.html?open-vip=1&mid=win.p.sphz.hzbq"
+  },
+  "mobile_pay_info": {
+    "title": "开通会员体验1080P高清画质",
+    "subtitle": "实际画质受设备性能与网络状态影响",
+    "btn_cancel": "暂不开通",
+    "btn_ok": "立即开通",
+    "pay_url": "https://meeting.tencent.com/buy.html?open-vip=1"
+  }
+}
